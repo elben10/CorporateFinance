@@ -1,0 +1,2500 @@
+---
+title: "Corporate Finance Notes"
+author: "Christoffer Jul Elben"
+classoption: a4paper
+output:
+  html_document:
+    toc: yes
+  pdf_document:
+    highlight: tango
+    includes:
+      after_body: tex/appendix.tex
+      before_body: tex/doc_prefix.tex
+      in_header:
+      - tex/packages.tex
+      - tex/options.tex
+    number_sections: yes
+    toc: yes
+geometry:
+- top=3cm
+- bottom=4cm
+- left=3cm
+- right=3cm
+bibliography: references.bib
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.show = "hold", cache = TRUE)
+``` 
+\pagebreak
+\pagestyle{style2}
+\renewcommand{\headrulewidth}{0pt}
+\setcounter{page}{1}
+
+# Preface
+
+$$2+2=4$$
+
+Hello world [@book].
+
+# Hillier & Grinblatt: Chapter 1: Raising Capital: The Process and the Players
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 1.1
+
+*Competitive underwritings appear to be cheaper than negotiated ones, but almost no firm use the former. Can you give some reasons for this?* [@book, p.26]
+
+### Exercise 1.2
+
+*Insider dealing is illegal in most countries. What re the costs and benefitsof prohibiting insider dealing?* [@book, p.26]
+
+### Exercise 1.3
+
+*Many companies simultaneously issue both equity and debt. Explain why toy think they would do this.* [@book, p.26]
+
+### Exercise 1.4
+
+*Small firms tend to raise funds from private investors and venture capitalists. As these firms grow larger, they focus more on raising capital from the organized capital markets. Explain why this occurs.* [@book, p.26]
+
+### Exercise 1.5
+
+*In emerging markets, the functioning of primary markets is not as yet well established. As a result, alternative methods of raising funds must be approached by firms operating in this environment. Discuss the issues that companies face in raising funds in emerging markets.* [@book, p.26]
+
+### Exercise 1.6
+
+*Investment banks that are successful in raising capital for companies tend to be used to advise on merger and takeover activities. Why do you think this happens? Discuss.* [@book, p.26]
+
+### Exercise 1.7
+
+*What are the principles underlying Islamic financing? Explain how Islamic bank could replicate the products of Western banks. Provide some hypothetical examplesto support your answer.* [@book, p.26]
+
+### Exercise 1.8
+
+*What is the difference between internal financing and external financing? Review the factors that influence a firm's choice between external and internal financing.* [@book, p.26]
+
+### Exercise 1.9
+
+*You plan to raise funds through following Islamic principles. You require funding today of 10 billion Bahraini dinars, and would like to pay it back in equal amounts over 10 yearsin monthly instalments. How would you do this?* [@book, p.26]
+
+# Hillier & Grinblatt: Chapter 2: Debt Financing
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 2.1
+
+*Critics of rating agencies argue that because the firm pays rating agencies to rate the firm's debt, the rating agencies have the wrong incentives. What do you think of this argument? Can you think of ways to assess its validity?* [@book, p.55]
+
+### Exercise 2.2
+
+*Credit rating agencies experienced substantial criticism from the regulatory authorities for not predicting the global financial crisis in 2008. Why do you think this happened, and how did the agencies defend themselves?* [@book, p.55]
+
+### Exercise 2.3
+
+*In 2010, Lloyds Banking Group issued a contingent convertible bonds, which they called a CoCo. Carry out your own research on these instruments, and review their debt and equity characteristics. In your opinion, are they bonds or are they equity? Discuss.* [@book, p.56]
+
+### Exercise 2.4
+
+*The diagram below shows default rates of rated bonds.* [@book, p.56]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+*What conclusions can you draw from the diagram?* [@book, p.56]
+
+### Exercise 2.5
+
+*Today is 30 March 2012. Consider a straight-coupon bond (or bank loan) with semi-annual interest payments at an 8 per cent annualized rate. Per €100 of face value, what is the semi-annual interest payment if the day count is based on the following methods?* [@book, p.56]
+
+a. *Actual/actual* [@book, p.56]
+
+b. *30/360* [@book, p.56]
+
+c. *Actual/365 if the coupon date is 15 August 2012.* [@book, p.56]
+
+d. *Actual/360 if the coupon date is 15 August 2012.* [@book, p.56]
+
+### Exercise 2.6
+
+*Refer to the bond in exercise2.5. What is the accrued interest for settlement of a trade on 1 August 2012, with each of the four day-count methods? For parts $a$ and $b$, assume that the coupon payment date is 15 August 2012.* [@book, p.56]
+
+### Exercise 2.7
+
+*XYZ Corporation takes out a £1 million loan that semi-annually pays six-month LIBOR + 50 bp on 5 March 2012. Assume that LIBOR is at 7 per cent on 5 March 2012, 6.75 per cent on 5 September 2012, and 7.125 per cent on 5 March 2013. What are the first three interest payments on the loan? When are they paid? (Hint: LIBOR-based loans typically use the modified following business day convention for payment dates and interest accrued to the payment date. For the 'actual' in the actual/360 day count, this means that if the date (say six months from now) falls on a Saturday, the payment date is the next business day.)[^1]* [@book, p.56]
+
+[^1]: *An exeption occurs when the next business day falls in the subsequent month, in which case the prior business day to that Saturday would be the payment date.* [@book, p.56]
+
+### Exercise 2.8
+
+*A 5 per cent corporate bond maturing on 14 November 2020 (originally a 25-year bond at issue)has a yield to maturity of 6 per cent (a 3 per cent discount rate per six-month period for each of its semi-annual payments) for the settlement date, 9 June 2012. What are the flat price, full price and accrued interest of the bond on 9 June 2012?* [@book, p.56]
+
+### Exercise 2.9
+
+*A bank loan to the Knowledge Company has a 50 basis point spread to LIBOR. If LIBOR is at 6 per cent, what is the rate of interest on the bank loan?* [@book, p.56]
+
+# Hillier & Grinblatt: Chapter 3: Equity Financing
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 3.1
+
+*AB Electrolux is a Swedish electrical appliance maker. Alecta, an occupational pensions specialist, is one of the company's major shareholders. AB Electrolux has two classes of shares class A, and class B. In 2011 there were 9.5 million shares of class A shares outstanding, entitled to 10 votes per share; there were also 272 million shares of class B equity outstanding with one vote per share. Alecta owns 500,000 shares of class A equity and about 16.2 million shares of class B equity. What percentage of the total votes does Alecta control?* [@book, p.76] 
+
+### Exercise 3.2
+
+*Accurately pricing a new issue is quite costly. Explain why underwriters desire a reputation for pricing new issues as accurately as possible. Describe the actions they take to ensure accuracy.* [@book, p.76]
+
+### Exercise 3.3
+
+*Suppose a firm wants to make £75 million IPO of equity. Estimate the transaction costs associated with the issue.* *Suppose a firm wants to issue a security that pays a guaranteed fixed payment plus an additional benefit when the firm's share price increases. Describe how such a security can be designed, and name existing securities that have this characteristic.* [@book, p.76]
+
+### Exercise 3.4
+
+*Suppose your firm wants to issue a security that pays a guaranteed fixed payment plus an additional benefit when the firm's share price increases. Describe how such a security can be designed, and name existing securities that have this characteristic.* [@book, p.76]
+
+### Exercise 3.5
+
+*When underwriters bring a new firm to market, do you think they have conflicting incentives? What might these be, and what are their causes?* [@book, p.76]
+
+### Exercise 3.6
+
+*Before the internet bubble burst in 2000 and 2001, Internet IPOs were substantially more underpriced than the IPOs issued in earlier periods. Discuss why you think this may have happened.* [@book, p.76]
+
+### Exercise 3.7
+
+*You are interested in buying 100 shares of Correndo SpA. The current bid price is €18 and the ask price is €19. Suppose you submit a market order. At what price is your order likely to purchase the shares at €17.90 versus the putting in a market order?* [@book, p.76]
+
+# Hillier & Grinblatt: Chapter 4: Portfolio Tools
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 4.1
+
+*Prove that $E\left[\left(\tilde{r}- \bar{r}\right)^2\right] = E\left(\tilde{r}^2\right) - \tilde{r}^2$ using the following steps:* [@book, p.116]
+
+a. *Show that $E\left[\left(\tilde{r} -\bar{r}\right)^2\right] = E\left(\tilde{r}^2-2\bar{r}\tilde{r}+\bar{r}\right)^2$.* [@book, p.116]
+
+b. *Show that the expression in part $a$ is equal to $E\left(\tilde{r}^2\right)-2E\left(\bar{r}\tilde{r}\right)+\bar{r}^2$.* [@book, p.116]
+
+c. *Show that the expression in part $b$ is equal to $E\left(\tilde{r}^2\right)-2\bar{r}^2+\bar{r}^2$.* [@book, p.116]
+
+*Then add.* [@book, p.116]
+
+### Exercise 4.2
+
+*Derive a formula for the weights of the minimum variance portfolio of two assets using the following steps:* [@book, p.117]
+
+a. *Compute the variance of a portfolio with weights $x$ and $1 - x$ on assets 1 and 2. respectively. Show that you get* [@book, p.117]
+$$var\left(\tilde{R}_\rho\right) = x^2\sigma^2_1 + \left(1-x\right)^2\sigma^2_2+2x\left(1-x\right)\rho\sigma_1\sigma_2$$
+b. *Take the derivative with respect to $x$ of the expression in part a. Show that the value of $x$ that makes the derivate 0 is* [@book, p.117]
+$$x=\frac{\sigma^2_2-\rho\sigma_1\sigma_2}{\sigma_1^2+\sigma_2^2-2\rho\sigma_1\sigma_2}$$
+
+c. *Compute the covariance of the return of this minimum variance portfolio with assets 1 and 2.* [@book, p.117]
+
+### Exercise 4.3
+
+*Compute the expected return and the variance of the return of the equity of Gamma Corporation. Gamma equity has a return of:* [@book, p.117]
+
+* *24 per cent with probability of 1/4* [@book, p.117]
+
+* *8 per cent with a probabbility of 1/8* [@book, p.117]
+
+* *4 per cent with a probability of 1/2* [@book, p.117]
+
+* *-16 per cent with a probability of 1/8*. [@book, p.117]
+
+### Exercise 4.4
+
+*If the ratio of the return variances of equity A to equity B is denoted by $q$, find the portfolio weights for the two equities that generate a riskless portfolio if the returns of the two equities are (a) perfectly negatively correlated or (b) perfectly positively correlated.* [@book, p.117]
+
+### Exercise 4.5
+
+*Iain invests €10,000 in Michelin shares with a €3 annual dividend selling at €85 per share, and €15,000 in Société Générale shares with €6 annual dividend at €120 per share. The fllowing year, Michelin shares are trading at €104 per share while Société Générale shares trade at €113. Calculate Ian's portfolio weights and returns.* [@book, p.117]
+
+### Exercise 4.6
+
+*Helix, a Chinese national, decides to buy a 6 per cent, 10-year straight-coupon bond for RMB10,000, which pays annual coupons of RMB600 at the end of each year. At the end of the first year, the bond is trading at RMB11,500. At the end of the second year, the bond trades at RMB10,000.* [@book, p.117]
+
+a. *What is Helix's return over the first year?* [@book, p.117]
+
+b. *What is Helix's return over the second year?* [@book, p.117]
+
+c. *What is the average return per year for the two-year period? Use the arithmetic average.* [@book, p.117]
+
+### Exercise 4.7
+
+*Helix's portfolio consists of RMB1,000,000 in face value of the bonds described in exercise 4.6 and an RMB800,000 bank CD that earns 3.5 per cent per year for the first year and 3.0 per cent the second year. Calculate a, b and c as in exercise 4.6* [@book, p.117]
+
+### Exercise 4.8
+
+*Show that the return of the minimum variance portfolio in Example 4.17 - 75 per cent Vodafone and 25 per cent British Airways put option - has the same covariance with Vodafone's equity return as it does with the put option. Show that no other portfolio of the two equities has this property.* [@book, p.117]
+
+### Exercise 4.9
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assuming (1) that the three economic outcomes have an equal likelihoodof occuring, and (2) that the good economy is twice as likely to take place as the other two:* [@book, p.118]
+
+a. *Calculate individual expected returns for each subsidiary.* [@book, p.118]
+
+b. *Calculate implicit portfolio weights for each subsidiary, and an expected return and variance for the equity in the ABCO conglomerate.* [@book, p.118]
+
+### Exercise 4.10
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assume in exercise 4.9 that ABCO also has a pension fund, which has a net asset value of €5 billion, implying that ABCO's equity is really worth €9 billion instead of €4billion. The €5 billion in pension funds is invested in short-term government risk-free securities yielding 5 per cent per year. Recalculate parts a and b of exercise 4.9 to reflect this.* [@book, p.118]
+
+### Exercise 4.11
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assume in exercise 4.9 that ABCO decides to borrow €8 billion at 5 per centinterest to triple its current investment in each of its four lines of business. Assume this new investment has the same per monetary return outcomes as the old investment.* [@book, p.118]
+
+a. *Answer parts a and b of exercise 4.9 given the new investment* [@book, p.118]
+
+b. *How does this result compare with the result from exercise 4.9? Why?* [@book, p.118]
+
+c. *To whom does this return belong? Why?* [@book, p.118]
+
+### Exercise 4.12
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*ABSO's head of risk management now warns of focusing on expected returns to the exclusion of risk measures such as variance. ABCO decides to measure return variance.* [@book, p.118]
+
+a. *For each ABCO subsidiary, compute the return variance with the standard formula* [@book, p.118]
+$$var\left(\tilde{r}\right)=E\left[\left(\tilde{r}-\bar{r}\right)^2\right]$$
+    i. *If the three economic scenarios are equally likely.* [@book, p.118]
+    
+    ii. *If the good economic scenario is twice as likely as the other two.* [@book, p.118]
+    
+b. *Show that the alternative variance formula, $E\left(\tilde{r}^2\right)-E\left[\left(\tilde{r}-\bar{r}\right)^2\right]$, from exercise 4.1, yields the same results.* [@book, p.118]
+
+### Exercise 4.13
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assuming that the three economic scenarios are equally likely, compute the covariances and the correlation matrix for the four ABCO subsidiaries. Show that an alternative covariance formula, $cov\left(\tilde{r}_1,\tilde{r}_2\right) = E\left(\tilde{r}_1,\tilde{r}_2\right)-E\left(\tilde{r}_1\right)E\left(\tilde{r}_2\right)$, generates the same covariances.* [@book, p.118]
+
+### Exercise 4.14
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*ABCO is considering selling off two of its four subsidiaries and reinvesting the proceedsin the remaining two subsidiaries, keeping the same relative investment proportions in thesurviving two. Assuming that the three economic scenarios are equally likely, compute the return variance of the €4 billion in ABCO equity for each of the six possible pairs of subsidiaries remaining.* [@book, p.118]
+
+### Exercise 4.15
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*For each of the six cases in exercise 4.14, ABCO wants to consider what would happento the return variance of ABCO's €4 billion in equity if it revised the relative investment proportions in the two remaining subsidiaries. In particular, for each of the six possible sell-off scenarios, what proportion of the €4 billion should be invested in the two remaining subsidiaries if ABCO were to minimize its variance? Assume that short sales are not permitted.* [@book, p.118]
+
+### Exercise 4.16
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Draw six mean-standard deviation diagrams, one for each of the six remaining pairs of subsidiaries in exercise 4.15. Mark the individual subsidiaries, the minimum variance combination assuming no short sales, and ABCO's return variance for 50/50 per cent combination.* [@book, p.118]
+
+### Exercise 4.17
+
+*Exercises 4.9 - 4.17 make use of the following data.* [@book, p.117]
+
+*ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*How does your answer to exercise 4.16 change if short sales are permitted.* [@book, p.118]
+
+### Exercise 4.18
+
+*The three-asset portfolio in Example 4.15 is combined with a risk-free investment.* [@book, p.118]
+
+a. *What are the variance and standard deviation of the return of the new portfolio if the percentage of wealth in the risk-free asset is 25 per cent? What are the portfolio weights of the four assets in the new portfolio?* [@book, p.118]
+
+b. *Repeat the problem with -50 per cent as the weight on the risk-free asset.* [@book, p.118]
+
+### Exercise 4.19
+
+*From Example 4.15, the covariances between the returns of AIB, CRH and Ryanair are given in the matrix below:* [@book, p.119]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Compute the minimum variance portfolio of these three equities.* [@book, p.119]
+
+### Exercise 4.20
+
+*Graph a generalization of Exhibit 4.5 that includes portfolios with short positions in one of the two investments.* [@book, p.119]
+
+### Exercise 4.21
+
+*In Example 4.5, we examined the returns on the FTSE 100 between 2006 and 2009. In 2007 and 2008 the market went through a very difficult period as a result of the poor economic conditions at the time. Did other markets experience the same problem? Collect annual data for the CAC40 (France), DAX (Germany), AEX (The netherlands) and OMX (Sweden), and calculate the expected return and variance of these indices, using data for the same period.* [@book, p.119]
+
+### Exercise 4.22
+
+*A portfolio consists of the following three assets, whose performance depends on the economic environment:* [@book, p.119]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assuming that the good economic environment is twice as likely as the bad one, compute the expected return and variance of the portfolio.* [@book, p.119]
+
+  *What if £1,000 of asset 4, which has a mean return of 4 per cent, a variance of 0.02, and is uncorrelated with the preceding portfolio? How will this change the expected return and variance of the total investment?* [@book, p.119]
+
+### Exercise 4.23
+
+*You wish to diversify your investment portfolio, and have decided to invest in international equities. The table below provides monthly index levels during 2009 and 2010 for four countries: Hang Seng Index (Hong Kong), OMX Copenhagen 20 (Denmark), DAX (Germany) and the FTSE 100 (UK).* [@book, p.119]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+a. *Calculate the monthly returns to each index.* [@book, p.120]
+
+b. *Calculate the expected return and variance of each of the indices.* [@book, p.120]
+
+c. *Calculate the covariance between each of the indices.* [@book, p.120]
+
+d. *Calculate the expected return and variance of a portfolio with equal weights in each region.* [@book, p.120]
+
+e. *Calculate the weights of each investment in the minimum variance portfolio.* [@book, p.120]
+
+f. *Calculate the expected return and variance of the minimum variance portfolio.* [@book, p.120]
+
+# Hillier & Grinblatt: Chapter 5: Mean-Variance and the Capital Asset Pricing Model
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 5.1
+
+*Here are some general questions and instructions to test your understanding of the mean standard deviation diagram.* [@book, p.159]
+
+a. *Draw a mean-standard deviation diagram to illustrate combinations of a risky asset and risk-free asset.* [@book, p.159]
+
+b. *Extend this concept to a diagram of the risk-free asset and all possible risky portfolios.* [@book, p.159]
+
+c. *Why does one line, the capital market line, dominate all other possible portfolio combinations?* [@book, p.159]
+
+d. *Label the capital market line and tangency portfolio.* [@book, p.159]
+
+e. *What condition must hold at the tangency portfolio?* [@book, p.159]
+
+### Exercise 5.2
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Compute the tangency portfolio weights, assuming that a risk-free asset yields 5 per cent.* [@book, p.160]
+
+### Exercise 5.3
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*How does your answer to exercise 5.2 change if risk-free rate is 3 per cent? 7 per cent?* [@book, p.160]
+
+### Exercise 5.4
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Draw a mean-standard deviation diagram and plot Deutsche Lufthansa, Volkswagen and BMW on this diagram, as well as the three tagency portfolios found in exercises 5.2 and 5.3.* [@book, p.160]
+
+### Exercise 5.5
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Show that an equally weighted portfolio of Deutsche Lufthansa, Volkswagen and BMW can be improved upon with marginal variance-marginal mean analysis.* [@book, p.160]
+
+### Exercise 5.6
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Repeat exercises 5.2 and 5.3, but use a spreadsheet to solve for the tangency portfolio weights of Deutsche Lufthansa, Volkswagen and BMW in the three cases. The solution of the system of equations requires you to invert the matrix of covariances above, then post-multiply the inverted covariance matrix by the column of risk premiums. The solution should be a column of cells, which needs to be rescaled so that the weights sum to 1.* [@book, p.160]
+
+### Exercise 5.7
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+a. *Compute the betas of Deutsche Lufthansa, Volkswagen and BMW with repeat to the tangency portfolio found in exercise 5.2.* [@book, p.160]
+
+b. *Then compute the beta of an equally weighted portfolio of the three assets.* [@book, p.160]
+
+### Exercise 5.8
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Using the fact that the hyperbolic boundary of the feasible set of the three assets is generated by any two portfolios:* [@book, p.160]
+
+a. *Find the boundary portfolio that is uncorrelated with the tangency portfolio in exercise 5.2.* [@book, p.160]
+
+b. *What is the covariance with the tangency portfolio of all inefficient portfolios that have the same mean return as the portfolio found in part a?* [@book, p.160]
+
+### Exercise 5.9
+
+*Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*What is the covariance of the return of the tangency portfolio from exercise 5.2. with the return of all portfolios that have the same expected return as Deutsche Lufthansa?* [@book, p.160]
+
+### Exercise 5.10
+
+*Using a spreadsheet, compute the minimum variance and tangency portfoliosfor the universe of three Norwegian equities (TGS Nopec Geophysical Co SA, Clavis Pharma ASA, and Sevan Marine ASA), described below. Assume the risk-free return is 5.63 per cent. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical. See exercise 5.6 for detailed instructions.* [@book, p.160]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+### Exercise 5.11
+
+*Kato plc has the following simplified balance sheet (based on market values).* [@book, p.160]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+a. *The debt of Kato, being risk-free, earns the risk-free return of 6 per cent per year. The equity of Kato has a mean return of 12 per cent per year, a standard deviation of 30 per cent per year, and a beta of 0.9. Compute the mean return, beta and standard deviation of the assets of Kato. Hint: view the assets as a portfolio of the debt and equity.* [@book, p.161]
+
+b. *If the CAPM holds, what is the mean return of the market portfolio?* [@book, p.161]
+
+c. *How does your answer to part a change if the debt is risky, has returns with a mean of 7 per cent, has a standard deviation of 10 per cent, a beta of 0.2, and has a correlation of 0.3 with the return of the common asset of Kato?* [@book, p.161]
+
+### Exercise 5.12
+
+*The following are adjusted closing prices for Sage Group plc and the corresponding closing index values of the FTSE 100.* [@book, p.161]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Using a spreadsheet. compute Sage Group's beta. Then apply the Bloomberg adjustment to derive the adjusted beta.* [@book, p.161]
+
+### Exercise 5.13
+
+*What value must ACYOU Corporation's expected return be in Example 5.4 to prevent us from forming a combination of Henry's portfolio, ACME, ACYOU and the risk-free asset that is mean-variance superior to Henry's portfolio?* [@book, p.162]
+
+### Exercise 5.14
+
+*Assume the tangency portfolio for equities allocates 80 per cent to the DAX index and 20 per cent to the AEX index. This tangency portfolio has an expected return of 13 per cent computed with respect to this tangency portfolio, is 0.54. Compute the expected return of the DAX index, assuming that this 80/20 percent mix really is the tangency portfolio when the risk-free rate is 5 per cent.* [@book, p.162]
+
+### Exercise 5.15
+
+*Exercise 5.14 assumed that the tangency portfolio allocated 80 per cent to the DAX index and 20 per cent to the AEX index. The beta for the DAX index with this tangency portfolio is 0.54. Compute the beta of a portfolio that is 50 per cent invested in the tangency portfolio and 50 per cent invested in the DAX index.* [@book, p.162]
+
+### Exercise 5.16
+
+*Using data only from 2010-2011, redo Example 5.9. Which differs more from the answer given in Example 5.9: the expected return estimated by averaging the monthly returns, or the expected return obtained by estimating beta and employing the risk-expected return equation? Why?* [@book, p.162]
+
+### Exercise 5.17
+
+*Estimate the Bloomberg-adjusted betas for the following companies.* [@book, p.162]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+### Exercise 5.18
+
+*Compute the tangency and minimum variance portfolios assuming that there are only two equities: African Rainbow and Impala Platinum. The expected returns of African Rainbow and Impala Platinum are 0.15 and 0.14, respectively. The variances of their returns are 0.04 and 0.08, respectively. The covariance between the two is 0.02. Assume the risk-free rate is 6 per cent.* [@book, p.162]
+
+### Exercise 5.19
+
+*There exists a portfolio P, whose expected return is 11 per cent. Asset I has a covariance with P of 0.004, and Asset II has a covariance with P of 0.005. If the expected returns on Asset I and II are 9 per cent and 12 per cent, respectively, and the risk-free rate is 5 per cent, then is it possible for portfolio P to be the tangency portfolio?* [@book, p.162]
+
+### Exercise 5.20
+
+*The expected return of the JSE Index, which you can assume is the tangency portfolio, is 16 per cent and has a standard deviation of 25 per cent per year. The expected return of SABMiller is unknown, but it has a standard deviation of 20 per cent per year and a covariance with the JSE Index of 0.10. If the risk-free rate is 6 per cent per year:* [@book, p.162]
+
+a. *Compute SABMiller's beta.* [@book, p.162]
+
+b. *What is SABMiller's expected return given the beta computed in part a?* [@book, p.162]
+
+c. *If ABSA Bank has half the expected return of SABMiller, then what is ABSA Bank's beta?* [@book, p.162]
+
+d. *What is the beta of the following portfolio?* [@book, p.162]
+    
+    * *0.25 in SABMiller* [@book, p.162]
+    
+    * *0.10 in ABSA Bank* [@book, p.162]
+    
+    * *0.75 in the JSE Index portfolio* [@book, p.162]
+    
+    * *0.20 in Mondi (where $\beta_{Mondi} = 0.80$)* [@book, p.162]
+    
+    * *0.10 in the risk-free asset* [@book, p.162]
+    
+e. *What is the expected return of the portfolio in part d?* [@book, p.162]
+
+# Hillier & Grinblatt: Chapter 6: Factor Models and the Arbitrage Pricing Theory
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 6.1
+
+*Prove that the portfolio-weighted average of a security's sensitivity to a particular factor is the same as the covariance between the return of the portfolio and the factor divided by the variance of the factor if the factors are uncorrelated with each other. Do this with the following setps:* [@book, p.197]
+
+1. *Write out the factor equation for the portfolio by multiplying the factor equationsof the individual securities by the portfolio weights and adding.* [@book, p.198]
+
+2. *Group terms that multiply the same factor.* [@book, p.198]
+
+3. *Replace the factor betas of the individual security returns by the covariance of the security return with the factor divided by the variance of the factor.* [@book, p.198]
+
+4. *Show that the portfolio-weighted average of the covariances that multiply each factor is the portfolio return's covariance with the factor.* [@book, p.198]
+
+*The rest is easy.* [@book, p.198]
+
+### Exercise 6.2
+
+*What is the minimum number of factors needed to explain the expected returns of a group of ten securities if the securities returns have no firm-specific risk? Why?* [@book, p.198]
+
+### Exercise 6.3
+
+*Consider the following two-factor model for the returns of three securities. Assume that the factors and epsilons have means of zero. Also, assume the factors have variances of 0.01 and are uncorrelated with each other.* [@book, p.198]
+$$\tilde{r}_A=0.13+6\tilde{F}_1+4\tilde{F}_2+\tilde{\varepsilon}_A$$
+$$\tilde{r}_B=0.15+2\tilde{F}_1+\tilde{F}_2+\tilde{\varepsilon}_B$$
+$$\tilde{r}_C=0.07+5\tilde{F}_1-1\tilde{F}_2+\tilde{\varepsilon}_C$$
+*If $var\left(\tilde{\varepsilon}_A\right)=0.01$ $var\left(\tilde{\varepsilon}_B\right)=0.4$ $\left(\tilde{\epsilon}_C\right)=0.02$, what are the variances of the returns of the three securities, as well as the covariances and correlations between them?* [@book, p.198]
+
+### Exercise 6.4
+
+*What are the expected returns of the three securities in exercise 6.3?* [@book, p.198]
+
+### Exercise 6.5
+
+*Write out the factor beta, factor equations and expected returns of the following portfolios.* [@book, p.198]
+
+1. *A portfolio of the three equities in exercise 6.3 with £20,000 invested in A, £20,000 invested in B and £10,000 invested in C.* [@book, p.198]
+
+2. *A portfolio consisting of the portfolio formed in part 1 of this exercise and £3,000 short position in C of exercise 6.3.* [@book, p.198]
+
+### Exercise 6.6
+
+*How much should be invested in each of the equities in exercise 6.3 to design two portfolios? The first portfolio has the following attributes:* [@book, p.198]
+
+* *factor 1 beta = 1* [@book, p.198]
+
+* *factor 2 beta = 0* [@book, p.198]
+
+*The second portfolio has the attributes:* [@book, p.198]
+
+* *factor 1 beta = 0* [@book, p.198]
+
+* *factor 2 beta = 1* [@book, p.198]
+
+*Compute the expected returns of these two portfolios. Then compute the risk premiums of these two portfolios assuming that the risk-free rate is the 'zero-beta rate' implied by the factor equations for the three equities in exercise 6.3. This is the expected return of a portfolio with factor betas of zero.* [@book, p.198]
+
+### Exercise 6.7
+
+*Two equities, Uni and Due, have returns that follow the one-factor model:* [@book, p.198]
+$$\tilde{r}_{uni}=0.11+2\tilde{F}+\tilde{\varepsilon}_{uni}$$
+$$\tilde{r}_{due}=0.17+5\tilde{F}+\tilde{\varepsilon}_{due}$$
+*How much should be invested in each of the two equities to design a portfolio that has a factor beta of 3? What is the expected return of this portfolio, assuming that the factors and epsilons have means of zero?* [@book, p.198]
+
+### Exercise 6.8
+
+*Describe how you might design a portfolio of the 40 largest equities that mimic the FTSE 100. Why might you prefer to do this instead of investing in all 100 of the FTSE 100 companies?* [@book, p.198]
+
+### Exercise 6.9
+
+*Prove that $\alpha_i=\left(1-\beta_i\right) r_f$ in equation (6.3), assuming the CAPM holds. To do this, take expected values of both sides of this equation and match up the values with those of the equation for the CAPM's securities market line.* [@book, p.198]
+
+### Exercise 6.10
+
+*Compute the firm-specific variance and firm-specific standard deviation of a portfolio that minimizes the firm-specific variance of 20 securities. The first 10 securities have firm-specific variances of 0.10. The second 10 securities have firm-specific variances of 0.05.* [@book, p.199]
+
+### Exercise 6.11
+
+*Find the weights of the two pure factor portfolios constructed from the following three securities:* [@book, p.199]
+$$r_1=0.06+2\tilde{F}_1+2\tilde{F}_2$$
+$$r_2=0.05+3\tilde{F}_1+1\tilde{F}_2$$
+$$r_3=0.04+3\tilde{F}_1+0\tilde{F}_2$$
+*Then write out the factor equations for the two pure factor portfolios, and determine their risk premiums. Assume a risk-free rate htat is implied by the factor equations and no arbitrage.* [@book, p.199]
+
+### Exercise 6.12
+
+*Assume the factor model in exercise 6.11 applies again. If there exists an additional asset with the following factor equation:* [@book, p.199]
+$$r_4=0.08+1\tilde{F}_1+0\tilde{F}_2$$
+*does an arbitrage opportunity exists? If so, describe how you would take advantage of it.* [@book, p.199]
+
+### Exercise 6.13
+
+*Use the information provided in Example 6.10 to determine the coordinates of the intersection of the solid and dotted lines in Exhibit 6.7.* [@book, p.199]
+
+# Hillier & Grinblatt: Chapter 7: Pricing Derivatives
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 7.1
+
+*Using risk-neutral valuation, derive a formula for a derivative that pays csah flows over the next two periods. Assume the risk-free rate is 4 per cent per period.* [@book, p.233] <br />
+*The underlying asset, which pays no cash flows unless it is sold, has a market value that is modelled in the following tree diagram:* [@book, p.233]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+*The cash flows of the derivative that correspond to the above tree diagram are:* [@book, p.233]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+*Find the present value of the derivate.* [@book, p.233]
+
+### Exercise 7.2
+
+*A convertible bond can be converted into a specified number of shares at the option of the bondholder. Assume that a convertible bond can be converted to 1.5 share. A single share of this equity has a price that follows the bionomial process:* [@book, p.234]
+
+*Date 0* [@book, p.233]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+*The equity does not pay a dividend between dates 0 and 1.* [@book, p.234]
+
+*If the bondholder never converts the bond to equity, the bond has a date 1 pay-off of $£100 + x$, where $x$ is the coupon of the bond. The conversion to equity may take place either at date 0 or at date 1 (in the latter case, upon revelation of the date 1 share price).* [@book, p.234]
+
+*The convertible bond is issued at date 0 for £100. What should $x$, the equilibrium couponof the convertible bond per £100 at face value, be if the risk-free return is 15 per cent per period and there are no taxes, transaction costs or arbitrage opportunities? Does the corporation save on interest payments if it issues a convertible bond in lieu of a straight bond? If so, why?* [@book, p.234]
+
+### Exercise 7.3
+
+*Value a risky corporate bond, assuming that the risk-free interest is 4 per cent per period where a period is defined as six months. The corporate bond has a face value of €100 payable two periods from now, and pays a 5 per cent coupon per period: that is, interest payments of €5 at the end of both the first and the second period.* [@book, p.234]
+
+*The corporate bond is a derivative of the assets of the issuing firm. Assume that the assets generate sufficient cash to pay off the promised coupon one period from now. In particular the corporation has set aside a reserve fund of €5/1.04 per bond to pay off the promised coupon one period from now. Two periods from now, there are three possible states. In one of those states, the assets of the firm are not worth much and the firm defaults, unable to generate a sufficient amount of cash. Only €50 of the €105 promised payment is made on the bond on this state.* [@book, p.234]
+
+*The exhibit below describes the value of the firm's assets per bond (less the amount in hte reserve fund maintained for the intermediate coupon) and the cash pay-offs of the bond. The non-reserved assets of the firm are currently worth €100 per bond. At the U and D nodes the reserve fund has been depleted, and the remaining assets of the firm per bond are worth €120 and €90, respectively while they are worth €300, €110 and €50, respectively, in the UU, UD and DD states two periods from now.* [@book, p.234]
+
+*Paths for (a) the Value of the Firm's Assets Per Bond (Above the Node); and (b) Cash Pay-offs of a Risky Bond (Below the Node); in a Two-Binominal Tree Diagram.* [@book, p.234]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+### Exercise 7.4
+
+*In many Instances, whether a cash flow occurs early or not is a decision of the issuer or holder of the derivative. One example of this is a callable bond, which is a bond that the issuing firm can buy back at the pre-specified call price. Valuing a callable bond is complicated, because the underlying security. In these cases, it is nessary to compare the value obtained from cash by calling the bond orprematurely exercising the call option. To solve these problems, you must work backwards in the binomial tree to make the appropriate comparisons and find the nodes in the tree where intermediate cash flows occur.* [@book, p.235]
+
+*Suppose that, in the absense of a call, a callable corporate bond with a call price of €100 plus accrued interest has cash flows identical to those of the bond in exercise 7.3. (In this case, accrued interest is the €5 coupon if it is called cum-coupon at the intermediate date, and 0 if it is called ex-coupon.) What is the optimal call policy of the issuing firm, assuming that the firm is trying to maximize shareholder wealth? What is the value of the callable bond? Hint: keep in mind that maximizing shareholder wealth is the same as minimizing the value of the bond.* [@book, p.235]
+
+### Exercise 7.5
+
+*Consider an equity that can appreciate by 50 per cent or depreciate by 50 per cent per period. Three periods from now, an equity with an initial value of £32 per share can be worth (1) £108 - three moves up; (2) £36 - two up moves, one down move; (3) £12 - one up move, two down moves; or (4) £4 - three down moves. Three periodsfrom now, a derivative is worth £78 in case (1), £4 in case (2), £0 otherwise. If the risk-free rate is 10 per cent throughout thesethree peiods, describe a  portfolio of the equity and a risk-free bond that tracks the pay-off of the accompanying exhitbit, which illustrates the price paths of the equity and the derivative. Hint: you need to work backwards. Use the risk-neutral valuation method to check your work* [@book, p.235]
+
+*Three-Period Binominal Tree Diagram: (a) Underlying Security's Price (Above Node); (b) Derivative's Price (Below Node)* [@book, p.235]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+### Exercise 7.6
+
+*Consider a forward contract on Tesco plc requiring purchase of one share of Tesco equity for £4.90 in six months. Six-month zero-coupon bonds are selling for £98 per £100 of face value.* [@book, p.235]
+
+a. * If the forward is selling for £0.25, is there an arbitrage opportunity? If so, describe exactly how you could take advantage of it.* [@book, p.236]
+
+b. *Assume that, three months from now. (i) the share price has risen to £4.80 and (ii) three-month zero-cpupon bonds are selling for £99. How much has the fair market value of your forward contract changed over the three months that have elapsed?* [@book, p.236] 
+
+### Exercise 7.7
+
+*Assume that forward contracts to purchase one share of Kingfisher plc and Reuters plc for £2.00 and £7.00, respectively, in one year are currently selling for £0.25 and £0.45. Assume that neither company pays a dividend over the coming year, and that one-year zero-coupon bonds are selling for £96 per £100 of face value. The current share prices of Kingfaisher and Reuters are £1.87 and £6.60, respectively.* [@book, p.236]
+
+a. *Are there any arbitrage opportunities? If so, describe how to take advantage of them.* [@book, p.236]
+
+b. *What is the fair market price of a forward contract on a portfolio composed of one-half og Kingfisher and one-half Reuters, requiring that £4.50 be paid for the portfolio in one year?* [@book, p.236]
+
+c. *In this the same as buying one-half of a forward contract on each of Kingfisher and Reuters? Why or why not? (Show pay-off tables.)* [@book, p.236]
+
+d. *Is it generally true that a forward on a portfolio is the same as a portfolio of forwards? Explain.* [@book, p.236]
+
+### Exercise 7.8
+
+*Assume that the one-year Eurodollar (12-month LIBOR for US$) rate is 5.27 per cent and the Eurosterling rate (12-month LIBOR for the UK £) is 4.28 per cent. What is the theoretical 12 month forward \$/£ exchange rate if the current spot exchange rate is \$2.04/£?* [@book, p.236]
+
+### Exercise 7.9
+
+*Assume that share prices for EMC plc can appreciate by 15 per cent or depreciate by 10 per cent, and that the risk-free rate is 5 per cent over the next period. How much should you pay for a forward contract that will allow you to buy EMC for £23 if the value of EMC today is £22.75 and the actual probability of the up state occuring is 75 per cent* [@book, p.236] 
+
+### Exercise 7.10
+
+*A share price follows a binomial process for two periods. In each period, it either increases by 20 per cent or decreases by 20 per cent. Assuming that the equity pays no dividends, value a derivative that, at the end of the second period, pays £10 for every up move of the share price that occured over the previous two periods. Assume that the risk-free rate is 6 per cent per period.* [@book, p.236]
+
+### Exercise 7.11
+
+*An equity has a 30 per cent per year standard deviation of its log returns. If you are modelling the share price to value a derivative maturing in six months with eight binomial periods, what should $u$ and $d$ be?* [@book, p.236]
+
+### Exercise 7.12
+
+*Find the risk neutral probabilities and zero-cost date 0 forward prices (for settlement at date 1) for the equity in exercise 7.2. As in that exercise, assume a risk-free rate of 15 per cent per period.* [@book, p.236]
+
+### Exercise 7.13
+
+*A European 'Tootsie Square' is a financial contract that, at maturity, pays off the square of the price of the underlying asset on which it is written. For instance, if the price of the underlying asset is £3 at maturity, the Tootsie Squarre contract pays £9. Consider a two-period Tootsie Squarre written on Vodafone plc, which is currently trading at £1.795 per share. Each period of the price either rises 10 per cent or falls by 5 per cent (i.e. after one period, the share price of Vodafone can either rise to £1.9745 or fall to £1.7053). The probability of a rise is 0.5. The risk-free rate is 4 per cent per period.* [@book, p.236]
+
+a. *Determine the price at which you expect the Tootsie Square on Vodafone to trade.* [@book, p.236]
+
+b. *Suppose that you wanted to form a portfolio to track the pay-off on the Tootsie Square over the first period. How many shares of Vodafone should you hold in this portfolio?* [@book, p.236]
+
+# Hillier & Grinblatt: Chapter 8: Options
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 8.1
+
+*You hold an American call option with a £30 strike price on an equity that sells at £35. The option sells for £5 one year before expiration. Compare the cash flows at espiration from: (1) exercising the option now, and putting the £5 proceeds in a bank account until the expiration date; and (2) holding on to the option until expiration, selling short the equity, and placing the £35 you receive into the same bank account.* [@book, p.271]
+
+### Exercise 8.2
+
+*Combine the Black-Scholes formula with the put-call parity formula to derive the Black Scholes formula for European puts.* [@book, p.271]
+
+### Exercise 8.3
+
+*HSBC Holdings equity has a volatility of $\sigma=0.25$ and a price of £9.25 a share. A European call option on HSBC stock with a strike price of £10 and an expiration time of one year has a price of £1. Using the Black-Scholes model, describe how you would construct an arbitrage portfolio, assuming that the present value of the strike price is £9.43. Would the arbitrage portfolio increase or decrease its position in HSBC if shortly thereafter the share price of HSBC rose to £9.30 a share?* [@book, p.271]
+
+### Exercise 8.4
+
+*Take the partial derivative of the Black-Scholes value of a call option with respect to the underlying security's price $S_0$. Show that this derivative is positive and equal to $N\left(d_1\right)$. Hint: first show that $S_0N'\left(d_1\right)-PV\left(K\right)N'\left(d_1-\sigma\sqrt{T}\right)$ equals zero by using the fact that the derivative of $N$ with respect to $d_1$, $N'\left(d_1\right)$, equals $1/\sqrt{2\pi}\left[exp^{\left(-0.5d_1^2\right)}\right]$.* [@book, p.271]
+
+### Exercise 8.5
+
+*Take the partial derivative of the Black-Scholes value of a call option with respect to the violatility parameter. Show that this derivative is positive and equal to $S_0\sqrt{T}N'\left(d_1\right)$.* [@book, p.271]
+
+### Exercise 8.6
+
+*If $PV\left(K\right)=K/\left[\left(1+r\right)^T\right]$, take the partial derivative of the Black-Scholes value of a call option with respect to the interest rate $r_f$. Show that this derivative is positive and equal to $T\times PV\left(L\right)N\left(d_1-\sigma\sqrt{T}\right)/\left(1+r_f\right)$.* [@book, p.271] 
+
+### Exercise 8.7
+
+*Suppose you observe a European call option on an asset that is priced at less than the value of $S_0-PV\left(K\right)-PV\left(div\right)$. What type of transaction should you execute to achieve arbitrage? (be specific with respect to amounts, and avoid using puts in this arbitrage.)* [@book, p.271]
+
+### Exercise 8.8
+
+*Consider a position of two purchased calls (BASF, three moths, K = €96) and one written put (BASF, three moths, K = €96). What position in BASF equity will show the same sensitivity to price changes in BASF equity as the option position described above? Express your answer algebraically as a funciton of $d_1$ from the Black-Scholes model.* [@book, p.271]
+
+### Exercise 8.9
+
+*The present price of an equity share of Strategy AB is €50. The equity follows a binomial process where each period the share price either goes up 10 per cent or down 10 per cent. Compute the fair market value of an American put option on Strategy AB equity with a strike price of €50 and two periods to expiration. Assume Strategy AB pays no dividend over the next two periods. The risk-free rate is 2 per cent per period.* [@book, p.271]
+
+### Exercise 8.10
+
+*Steady plc has a share value of £50. At-the-money American call options on Steady plc with nine months to expiration are trading at £3. Sure plc also has a share value of £50. At-the-money American call options on Sure plc with nine months to expiration are trading at £3. Suddenly, a merger is announced. Each share in bothcorporations is exchanged for one share in the combined corporation, 'Sure & Steady'. After the merger, options formerly on one share of either Sure plc or Steady plc were converted to options on one share of Sure & Steady. The only change is the difference in the underlying asset. Analyse the likely impact of the merger on the values of the two options before and after the merger. Extend this analysis to the effect of mergers on the equity of firms with debt financing.* [@book, p.271]
+
+### Exercise 8.11
+
+*FSA is a privately held firm. As an analyst trying to determine the value of FSA's ordinary equity and bonds, you have estimated the market value of the firm's asset to be €1 million and the standard deivation of the asset return to be 0.3. The debt of FSA, which consists of zero-coupon bank loans, will come due one year from now at its face value of €1 million . Assuming that the risk-free rate is 5 per cent, use the Black-Scholes model to estimate the value of the firm's equity and debt.* [@book, p.272]
+
+### Exercise 8.12
+
+*Describe what happens to the amount of equity held in the tracking portfolio for a call (put) as the share price goes up (down). Hint: prove this by looking at delta.* [@book, p.272]
+
+### Exercise 8.13
+
+*Callable bonds appear to have market values that are determined as though the issuing corporation optimically exercises the call option implicit in the bond. You know, however, that these options tend to get exercised past the optimal point. Write up a non-technical presentation for your boss, the portfolio manager, explaining why arbitrage exists, and how to take advantage of it with this investment opportunity.* [@book, p.272]
+
+### Exercise 8.14
+
+*The following tree diagram outlines the share price of a company over the next two periods:* [@book, p.272]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+*The risk-free rate is 12 per cent from date 0 to date 1, and 15 per cent from date 1 to date 2. A European call on this equity (1) expires in period 2, and (2) has a strike price of £8.* [@book, p.272]
+
+a. *Calculate the risk-neutral probabilities implied by the binominial tree.* [@book, p.272]
+
+b. *Calculate the pay-offs of the call option at each of three nodes at date 2.* [@book, p.272]
+
+c. *Compute the value of the call at date 0.* [@book, p.272]
+
+### Exercise 8.15
+
+*A non-dividend-paying equity has a current price of £30 and a volatility of 20 per cent per year.* [@book, p.272]
+
+a. *Use the Black-Scholes equation to value a European call option on the equity above with a strike price that has a present value of £28 and time to maturity of three months.* [@book, p.272]
+
+b. *Without performing calculations, state whether this price would be higher if the call were American. Why?* [@book, p.272]
+
+c. *Suppose the equity pays dividends. Are otherwise identical American and European options likely to have the same value? Why?* [@book, p.272]
+
+# Hillier & Grinblatt: Chapter 9: Discounting and Valuation
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 9.1
+
+*Let $PV$ be the present value of a growing perpetuity (the 'time 1 perpetuity') with an initial payment of C beginning one period from now and a growth rate of $g$. If we move all the cash flows back in time one period, the present value becomes $PV\times\left(1+r\right)$. Note that this is the present value of a growing perpetuity with an initial payment of C beginning today (the 'time 0 perpetuity').* [@book, p.306]
+
+a. *How do the cash flows of the time 1 perpetuity compare with those of the time 0 perpetuity from time 1 on?* [@book, p.306]
+
+b. *How do the present values of the cash flows discussed in part a compare with each other?* [@book, p.306]
+
+c. *How do the cash flows (and present values) for the two perpetuities described in part a compare?* [@book, p.306]
+
+d. *Write out a different value for the present value of the time 0 perpetuity in relation to the value of time 1 perpetuity, based on your analysis in parts b and c.* [@book, p.306]
+
+e. *Solve for $PV$ from the equation below:* [@book, p.306]
+$$PV\times\left(1+r\right)=value \ from  \ part \ d$$
+
+### Exercise 9.2
+
+*How long will it take your money to double at an annualized interest rate of 8 per cent compounded semi-annually? How does your answer change if the interest rate is compunded annually?* [@book, p.306]
+
+### Exercise 9.3
+
+*A 25-year fixed-rate mortgage has monthly payments of £717 per month and a mortgage interest rate of 6.14 per cent per year compounded monthly. If a buyer purchases a home with the cash proceeds of the mortgage loan plus an additional 20 per cent deposit, what is the purchase price of the home?* [@book, p.307]
+
+### Exercise 9.4
+
+*What is the annualized interest rate, compounded daily, that is equivalent to 10 per cent interest compounded semi-annually? What is the daily compounded rate that is equivalent to 10 per cent compounded continously?* [@book, p.307]
+
+### Exercise 9.5
+
+*A woman who has just turned 24 wants to save for her retirement through a defined benefitt employee pension scheme. She plans to retire on her 60th birthday, of £2,000 (after taxes) until she dies.* [@book, p.307]
+
+* *Sha has budgeted conservatively, assuming that she dies at age 85.* [@book, p.307]
+
+* *Assume that, until she reaches age 60, the pension scheme earns 8 per cent interest, compounded annually, which accumulates tax free.* [@book, p.307]
+
+* *At age 60, assume that the interest accumulated in the pension pays a lump sum taxes at a rate of 30 per cent.* [@book, p.307]
+
+* *Thereafter, assume that the investor is in a 0 per cent tax bracket and that the interest on her account earns 7 per cent interest, compounded monthly.* [@book, p.307]
+
+*How much should the investor deposit annually in her pension, beginning on her 24th birthday and ending on her 60th birthday, to finance her retirement?* [@book, p.307]
+
+### Exercise 9.6
+
+*If $r$ is the annually compounded interest rate, what is the present valuje of a deferred perpetuity with annual payments of C beginning $t$ years from now?* [@book, p.307]
+
+### Exercise 9.7
+
+*An investor is comparing a 25-year fixed-rate mortgage with a 15-year fixed-rate mortgage. The 15-year mortgage has a considerably lower interest rate. If the annualized interest rate on the 25-year mortgage is 8 per cent, compounded monthly, what rate, compounded monthly on the 15-year mortgage, offers the same monthly payments?* [@book, p.307]
+
+### Exercise 9.8
+
+*Graph the relation between the annually compounded interest rate and the present value of a zero-coupon bond paying €100 five years from today. Graph the relation between present value and years to maturity of a zero-coupon bond with an interest rate of 8 per cent compounded annually.* [@book, p.307]
+
+### Exercise 9.9
+
+*The value of a share of stock is the present value of its future dividends. If the next dividend, occuring one year from now €2 per share, and dividends, paid annually, are expected to grow at 3 per cent per year, what is the value of a share if the discount rate is 7 per cent?* [@book, p.307]
+
+### Exercise 9.10
+
+*A 24-year-old employee, who expected to work another 41 years, is injured in a plant accident and will never work again. His wages next year will be €40,000. A study of wages across the plant found that every additional year of seniority tends to add 1 per cent to the wages of a worker, other things held constant. Assuming a nominal discount rate of 10 per cent and an expected rate of inflation of 4 per cent per year over the next 40 year, what lump sum compensation should this worker receive for the lost wages due to the injury?* [@book, p.307]
+
+### Exercise 9.11
+
+*Iain invests £1,000 in a simple interest account. Thirty months later, he finds the account has accumulated to £1,212.50.* [@book, p.307]
+
+a. *Compute the annualized simple interest rate.* [@book, p.307]
+
+b. *Compute the equivalent annualized rate compounded (1) annually, (2) semi-annually, (3) quarterly, (4) monthly, and (5) continuously.* [@book, p.307]
+
+c. *Which rate in part b is largest? Why?* [@book, p.307]
+
+### Exercise 9.12
+
+*A nine-month T-bill with a face value of €100 currently sells for €96. Calculate the annualized simple interest rate.* [@book, p.307]
+
+### Exercise 9.13
+
+*Which of the following rates would you prefer: 8.50 per cent compounded annually, 8.33 per cent compounded semi-annually, 8.25 per cent compounded quarterly, or 8.16 per cent compounded continously? Why?* [@book, p.307]
+
+### Exercise 9.14
+
+*The treasurer of Small Corp. is considering the purchase of a T-bill maturing in seven months. At a rate of 9 per cent compounded annually:* [@book, p.308]
+
+a. *Calculate the present value of the \$10,000 face value T-bill.* [@book, p.308]
+
+b. *If you wanted to purchase a seven-month T-bill 30 months from now, what amount must you deposit today?* [@book, p.308]
+
+### Exercise 9.15
+
+*Helix, a third-year graduate student, is considering a delivery programme for a local grocery store earn extra money for his studies. His idea is to buy a used car and deliver groceries after university and at weekends. He estimates the following revenues and expenses:* [@book, p.308]
+
+* *start-up costs of £1,000 for the car and minor repairs* [@book, p.308]
+
+* *weekly revenue of about £150* [@book, p.308]
+
+* *ongoing maintenance and fuel costs of about £45 per week* [@book, p.308]
+
+* *after nine months, replacement of the brake pads on the car for about £350* [@book, p.308]
+
+* *sale of the car at year-end for about £450* [@book, p.308]
+
+*What is the difference between the PV of the venture (assuming a rate of 6 per cent compounded annually) and its start-up costs?* [@book, p.308]
+
+### Exercise 9.16
+
+*Consider a prespective project with the following future cash inflows: R9,000 at the end of year 1, R9,500 at the end of 15 months, R10,500 at the end of 30 months and R11,500 at the end of 38 months.* [@book, p.308]
+
+a. *What is the PV of these cash flows at 7.5 per cent compounded annually?* [@book, p.308]
+
+b. *How does the PV change if the discount rate is 7.5 per cent compounded semi-annually?* [@book, p.308]
+
+### Exercise 9.17
+
+*If the future value of £10,000 today is £13,328, and the interest rate is 9 per cent compounded annually:* [@book, p.308]
+
+a. *What is the holding period $t$ (in years)?* [@book, p.308]
+
+b. *How does $t$ change if the interest rate is 9 per cent compounded semi-annually?* [@book, p.308]
+
+c. *How does $t$ change if the interest rate is 11 per cent compounded annually?* [@book, p.308]
+
+### Exercise 9.18
+
+*You have just won the Lottery! As the winner, you have a choice of three pay-off programmes (assume the interest rate is 9 per cent compounded annually): (1) a lump sum today of £350,000 plus a lump sum of ten years from now of £25,000; (2) a 20-year annuity of £42,500 beginning next year; and (3) a £35,000 sum each year beginning next year paid to you and your descendants (assume your family line will never die out).* [@book, p.308]
+
+a. *Which choice is the most favourable?* [@book, p.308]
+
+b. *How would your answer change if the interest assumption changes to 10 per cent?* [@book, p.308]
+
+c. *How would your answer change if the interest assumption changes to 11 per cent?* [@book, p.308]
+
+### Exercise 9.19
+
+*You need to insure your home over the next 20 years. You can either pay beginning-og-year premiums with today's premium of €5,000 and future premiums growing at 4 per cent per year, or prepay a lump sum of €67,500 for the entire 20 years of coverage.* [@book, p.308]
+
+a. *With a 9 per cent compounded annually, which of the two choices would you prefer?* [@book, p.308]
+
+b. *How would your answer change if the rate were 10 per cent compounded annually?* [@book, p.308]
+
+c. *What is happening to the PV of the annuity as $r$ increases?* [@book, p.308]
+
+### Exercise 9.20
+
+*Your rich uncle recently passed away and has left you an inheritance in the forn of a varying perpetuity. You will receive £2,000 per year from year 3 to year 14, £5,000 per year from year 15 to year 22, and £3,000 per year thereafter. At a rate of 7 per cent compounded annually, what is the PV at the start of year 1 of your uncle's generousity?* [@book, p.308]
+
+### Exercise 9.21
+
+*You have just had a baby boy (congratulations!) and you want to ensure the funding of his college education. Tuition today costs £7,000, and is growing at 4 per cent per year. In 18 years, your son will enter a three-year undergraduate programme with tuition payments at the beginning of each year.* [@book, p.308]
+
+a. *At the rate of 7 per cent compounded annually, how much must you deposit today just to cover tuition expenses?* [@book, p.308]
+
+b. *What amount must you save at the end of each year over the next 18 years to cover these expenses?* [@book, p.308]
+
+### Exercise 9.22
+
+*Your financial planner has adviced you to intitiate a retirement account while you are still young. Today is your 35th birthday, and you are planning to retire at age 65. Actuarial tables show that individuals in your age group hae a life expextancy of about 75 (you obviously don't come from Glasgow!). If you want a £50,000 annuity beginning on your 66th birthday, which will grow at a rate of 4 per cent per year for ten years:* [@book, p.309]
+
+a. *What amount must you deposit at the end of each year through age 65 at a rate of 8 per cent compounded annually to fund your retirement account?* [@book, p.309]
+
+b. *How would your answer change if the rate is 9 per cent?* [@book, p.309]
+
+c. *After you have paid your last installment on your 65th birthday, you learn that medical advances have shifted actuarial tables so that you are now expected to live to age 85. Determine the base-year annuity payment supportable under the 4 per cent growth plan with a 9 per cent interest rate.* [@book, p.309]
+
+### Exercise 9.23
+
+*You are considering a new business venture, and want to determine the present value of seasonal cash flows. Historical data suggest that quarterly flows will be €3,000 in quarter 1, €4,000 in quarter 2, €5,000 in quarter 3, and €6,000 quarter 4. The annualized rate is 10 per cent, compounded annually.* [@book, p.309]
+
+a. *What is the PV if this quarterly pattern will continue into the future (that is, for ever)?* [@book, p.309]
+
+b. *How would your answer change if same quarter growth is 1 per cent per year in perpetuity?* [@book, p.309]
+
+c. *How would your answer change if this 1 per cent growth lasts only 10 years?* [@book, p.309]
+
+### Exercise 9.24
+
+*Assume a homeowner takes on a 30-year,£100,000 floating-rate mortgage with monthly payments. Assume that the floating rate is 7.0 per cent at the inflation of the mortgage, 7.125 per cent is the reset rate at the end of the first month, and 7.25 per cent is the reset rate at the end of the second month. What are the first, second and third mortgage payments, respectively, made at the end of the first, second and third months? What is the breakdown between principal and interest for each of the first three payments? What is the principal balance at the end of the first, second and third months?* [@book, p.309]
+
+### Exercise 9.25
+
+*The Allied Corporation typically allocates expenses for CEO pay to each of its existing projects, with the percentage allocation based on the percentage of book assets that each project represents. Super-secret Project X, under consideration, will, if adopted, constitute 10 per cent of the company's book assets. As the CEO's salary amounts to £1 million per year, super-secret Project X will be allocated £100,000 in expenses. Does this £100,000 represent a reduction in the unlevered cash flows generated by your secret Project X?* [@book, p.309]
+
+### Exercise 9.26
+
+*Assume that the analyst who developed Exhibit 9.1 simply forgot about inflation. Redo Exhibit 9.1 assuming 2 per cent inflation per year and 2 per cent growth due to inflation in EBITDA, in column (c). Show how columns (a)-(g) change, and explain why column (b) does not change.* [@book, p.309]
+
+### Exercise 9.27
+
+*Find the present value of the MRI's unlevered cash flows for the revised exhibit you contructed in exercise 9.26. Assume a discount rate of 10 per cent.* [@book, p.309]
+
+### Exercise 9.28
+
+*Using the assumptions of exercise 9.26, provide indflation-adjusted figures for Exhibit 9.1.* [@book, p.309]
+
+a. *Compute the real discount rate if the nominal discount rate is 10 per cent.* [@book, p.309]
+
+b. *Discount the inflation-adjusted unlevered cash flows of the MRI at the real discount rate to obtain their present value.* [@book, p.309]
+
+### Exercise 9.29
+
+*Compute TomTom's unlevered cash flow from its most recent financial statements. TomTom is a Dutch manufacturer of satelite navigation systems ([www.tomtom.com](http://www.tomtom.com)).* [@book, p.309]
+
+# Hillier & Grinblatt: Chapter 10: Investing in Risk-Free Projects
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 10.1
+
+*Your firm has recently reached an expansion phase and is sseking possible new geographic regions to market the newly patented chemical compound Glupto. The five regional projections are as follows:* [@book, p.338]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+a. *Which countries would be profitable to the firm? Which of the five is the most profitable?* [@book, p.338]
+
+b. *If current budgeting can support €100 million expenditure in year 0, what combination of regions is optimal?* [@book, p.338]
+
+c. *Assume now that you can expand without regional saturation. With the budget constraint in part b, which region is optimal?* [@book, p.338]
+
+### Exercise 10.2
+
+*Consider the purchase of a new milling machine. What purchase price makes the NPV of the project zero? Base your analysis on the following facts.* [@book, p.338]
+
+* *The new milling machine will reduce operating expenses by exactly £20,000 per year for 10 years. Each of these cash flow reductions takes place at the end of the year.* [@book, p.338]
+
+* *The old milling machine is now 5 years old, and has a 10 years of scheduled life remaining.* [@book, p.338]
+
+* *The old milling machine was purchased for £45,000 and has a current market value of £20,000.* [@book, p.338]
+
+* *There are no taxes or inflation.* [@book, p.338]
+
+* *The risk-free rate is 6 per cent.* [@book, p.338]
+
+### Exercise 10.3
+
+*Exercises 10.3 - 10.6 make use of the following information.* [@book, p.338]
+
+*Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Respond to parts a to d.* [@book, p.339]
+
+a. *What are the incremental cash flows associated with undertaking Project X? Are these inflows outflows, costs or revenue?* [@book, p.339]
+
+b. *What is the PV of Project X under a flat term structure of 8 per cent, compounded annually, irrespective of maturity?* [@book, p.339]
+
+c. *Under these assumptions, what is the hurdle rate? Without further calculation, determine whether the IRR for Project X is higher or lower than the hurdle rate. (Hint: Use part b.)* [@book, p.339]
+
+d. *Why might a flat rate structure be unrealistic?* [@book, p.339]
+
+### Exercise 10.4
+
+*Exercises 10.3 - 10.6 make use of the following information.* [@book, p.338]
+
+*Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Describe the equivalent tracking portfolio for Project X, giving long and short positions and amounts, under a flat term structure of 8 per cent, compounded annually. Conceptually, why are we interested in tracking Project X's cash flows with a portfolio of marketable securities?* [@book, p.339]
+
+### Exercise 10.5
+
+*Exercises 10.3 - 10.6 make use of the following information.* [@book, p.338]
+
+*Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Let $B_t$ = price per €100 of face value of a zaro-coupon bond maturing at year $t$. Then, if $B_1=€94.00$, $B_2=€88.20$, $B_3=€81.50$, $B_4=€76.00$ adn $B_5=€73.00$, implying that the term structure of interest rates is no longer flat:* [@book, p.339]
+
+a. *Determine zero-coupon rates for years 1-5 to the nearest 0.01 per cent.* [@book, p.339]
+
+b. *Let's now reconsider the tracking portfolio in exercise 10.4; what is the cost or revenue associated with such a tracking portfolio at date 0 under the new term structure?* [@book, p.339]
+
+c. *What is the NPV of Project X under the new term structure?* [@book, p.339]
+
+d. *How are your asnwers to part b and c related?* [@book, p.339]
+
+### Exercise 10.6
+
+*Exercises 10.3 - 10.6 make use of the following information.* [@book, p.338]
+
+*Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Consider the cash flows associated with undertaking Project X.* [@book, p.339]
+
+a. *Is this an early or later cash flow stream?* [@book, p.339]
+
+b. *Based on the term structure of interest rates in exercise 10.5, what is the hurdle rate? What does such a hurdle rate represent?* [@book, p.339]
+
+c. *Calculate the IRR for Project X.* [@book, p.339]
+
+d. *Based on the hurdle rate calculated and a comparison with the IRR, should you undertake the project?* [@book, p.339]
+
+e. *If the sign of each cash flow were reversed, how would the hurdle rate and project IRR change? How would your decision change? Why?* [@book, p.339]
+
+### Exercise 10.7
+
+*As a regional managing director of Finco, an Italy-based investment company, your mandate is to scour Europe in search of promising investment opportunities, and to recommend one project to corporate headquarters in Milan. Your analysts have screened thousands of propective ventures, and have passed on the following four projects for your final review:* [@book, p.339]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+a. *Calculate the NPV, hurdle rate and IRR for each project. Which project appears most promising?* [@book, p.340]
+
+b. *Determine NPVs using pairwise project comparisons to verify your decision from part a.* [@book, p.340]
+
+c. *How would your answer change if all projects could be scaled and you have a year 0 budget and constraint of €50 million? (Hint: Calculate profitability indexes.)* [@book, p.340]
+
+### Exercise 10.8
+
+*ABC Metalworks wants to determine which model sheetcutter to purchase. Three choices are available: machine 1 costs the least, but must be replaced the most frequently; machine 2 has average cost and average lifespan; machine 3 costs the most, but needs only infrequent replacement. Assume that all three machines meet production quality and volume standards; that annual maintenance is inversely proportional to the purchase price (that is, the cheaper machine requires higher maintenance); and that machine replacement, being instantaneous, will not disrupt production.* [@book, p.340]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+a. *Under a flat discount rate assumption of 5 per cent per year, calculate the NPV for each machine.* [@book, p.340]
+
+b. *Which machine makes the most sense for cost-efficient production?* [@book, p.340]
+
+c. *How does your answer to part b change under a flat 6 per cent discount rate assumption? Why?* [@book, p.340]
+
+### Exercise 10.9
+
+*Investco, a South African research company, must decide on the level of computer technology it will buy for its analysis department. Package A, a mid-level technology, would cost R15 million for firmwide installation, whereas package B, a high-level technology, would cost R21 million Equipped with level A technology, the firm could generate a cash flow of R9 million for two years before the technology would require replacement; with level B technology, the firm could generate a cash flow of R10.2 million for three years, after which the technology would require replacement. Investco is interested in a six-year planning horizon. Assume the following about discount rates:* [@book, p.340]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+a. *What is the nearest terminal date that is concurrent for both packages? What are the associated cash flows for each package or sequence of packages?* [@book, p.340]
+
+b. *What is the optimal decision, given that Investco's planning horizon?* [@book, p.340]
+
+c. *At approximately what alternative package B price would Investco be indifferent between the two packages?* [@book, p.340]
+
+## Exercises Appendix 10A
+
+### Exercise 10A.1
+
+*A zero-coupon bond maturing two years from now has a yield to maturity of 8 per cent (annual compounding). Another zero-coupon bond with the same maturity date has a yield to maturity of 10 per cent (annual compounding). Both bonds have a face value of $100.* [@book, p.340]
+
+a. *What are the prices of the zero-coupon bonds?* [@book, p.347]
+
+b. *Descrie the cash flows to a long position in the 10 per cent zero-coupon bond and a short position in the 8 per cent zero-coupon bond.* [@book, p.347]
+
+c. *Are the ccash flows in part b indicative of arbitrage?* [@book, p.347]
+
+d. *Suppose the 10 per cent bond matured in three years rather than two years. Is there arbitrage now?* [@book, p.347]
+
+### Exercise 10A.2
+
+*Compute annuity yields and par yields for years 1, 2 and 3 if spot yields for years 1, 2 and 3 are respectively, 4.5 per cent, 5 per cent and 5.25 per cent. Assume annual compounding for all rates and annual payments for all bonds.* [@book, p.347]
+
+### Exercise 10A.3
+
+*Compute spot yields and annuity yields for years 1, 2, 3 and 4 if par yields for years 1, 2, 3 and 4 are, respectively, 4.5 per cent, 5 per cent, 5.25 per cent and 5.25 per cent. Assume annual compounding for all rates and annual payments for all bonds.* [@book, p.347]
+
+# Hillier & Grinblatt: Chapter 11: Investing in Risky Projects
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 11.1
+
+*A project has an expected cash flow of €1 million one year from now. The standard deviation of this cash flow is €250,000. If the expected return of the market portfolio is 10 per cent, the risk-free rate is 5 per cent, the standard deviation of the market is 0.5, what is the present value of the cash flow? Assume the CAPM holds. (Hint: Use the certainty equivalent method.)* [@book, p.389]
+
+### Exercise 11.2
+
+*Exercises 11.2 - 11.6 make use of the following information.* [@book, p.389]
+
+*Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assume alse that the CAPM holds.* [@book, p.389]
+
+*Compute the expected year 1 cash flow for BA Cityflyer.* [@book, p.389]
+
+### Exercise 11.3
+
+*Exercises 11.2 - 11.6 make use of the following information.* [@book, p.389]
+
+*Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assume alse that the CAPM holds.* [@book, p.389]
+
+*Find the covariance of the cash flow with the market return and its cash flow beta.* [@book, p.389]
+
+### Exercise 11.4
+
+*Exercises 11.2 - 11.6 make use of the following information.* [@book, p.389]
+
+*Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assume alse that the CAPM holds.* [@book, p.389]
+
+*Assuming that historical data suggest that the market risk premium is 8.4 per cent per year and the market standard deviation is 40 per cent per year, find the certainty equivalent of the year 1 cash flow. What are the advantages and disadvantages of using such historical data for market inputs as opposed to inputs from a set of scenarios, like those given in the table above exercise 11.2?* [@book, p.389]
+
+### Exercise 11.5
+
+*Exercises 11.2 - 11.6 make use of the following information.* [@book, p.389]
+
+*Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assume alse that the CAPM holds.* [@book, p.389]
+
+*Discount your answer in exercise 11.4 at the risk-free rate of 4 per cent per year yo obtain the present value.* [@book, p.389]
+
+### Exercise 11.6
+
+*Exercises 11.2 - 11.6 make use of the following information.* [@book, p.389]
+
+*Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Assume alse that the CAPM holds.* [@book, p.389]
+
+*Explain why the answer to exercise 11.5 differs from the answer in example 11.2.* [@book, p.389]
+
+### Exercise 11.7
+
+*Start with the risk-adjusted discount rate formula. Derive the certainty equivalent formula by rearranging terms and that $b=\beta\times PV$.* [@book, p.389]
+
+### Exercise 11.8
+
+*In Section 11.3's illustration, asset values increased 10 per cent from 2012 to 2013, from €100 million to €110 million.* [@book, p.389]
+
+a. *Compute the percentage increase in the value of equity if the firm is financed with €50 million in debt.* [@book, p.389]
+
+b. *Compute the leverage ratio of this firm in 2013.* [@book, p.389]
+
+### Exercise 11.9
+
+*Explain intuitively why the certainty equivalent of a cash flow with a negative beta exceeds the cash flow's expected value.* [@book, p.389]
+
+### Exercise 11.10
+
+*Exercises 11.10 - 11.14 make use of the following data.* [@book, p.389]
+
+*In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Analyse the Hughes acquisition (which took place) by first computing the betas of the comparison firms, Lockheed and Northrop, as if they were all equity financed. Assume no taxes.* [@book, p.390]
+### Exercise 11.11
+
+*Exercises 11.10 - 11.14 make use of the following data.* [@book, p.389]
+
+*In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Compute the beta of the assets of the Hughes acquisition, assuming no taxes, by taking the average of the asset betas of Lockheed and Northrop.* [@book, p.390]
+
+### Exercise 11.12
+
+*Exercises 11.10 - 11.14 make use of the following data.* [@book, p.389]
+
+*In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Compute the cost of capital for the Hughes acquisition, assuming no taxes.* [@book, p.390]
+
+### Exercise 11.13
+
+*Exercises 11.10 - 11.14 make use of the following data.* [@book, p.389]
+
+*In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Compute the value of Hughes with the cost of capital estimated in exercise 11.12.* [@book, p.390]
+
+### Exercise 11.14
+
+*Exercises 11.10 - 11.14 make use of the following data.* [@book, p.389]
+
+*In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Compute the value of Hughes if GM's cost of capital is used as a discount rate instead of the cost of capital computed from the comparison firms.* [@book, p.390]
+
+### Exercise 11.15
+
+*In a two-factor APT model, easyJet has a factor beta of 1.15 on the first factor portfolio, which is highly correlated with the change in GDP, and a factor beta of -0.3 on the second factor portfolio, which is highly correlated with interest rate changes. If the risk-free rate is 5 per cent per year, the first factor portfolio has a risk premium of 2 per cent per year, and the second has arisk premium of -0.5 per cent per year:* [@book, p.390]
+
+a. *Compute the cost of capital for the BA Cityflyer project that uses easyJet as the appropriate comparison firm. Assume no taxes and no need for leverage adjustments.* [@book, p.390]
+
+b. *What is the present value of an expected £1 million BA Cityflyer cash flow one year from now, assuming that easyJet is the appropriate comparison? Assume no taxes and no need for leverage adjustments.* [@book, p.390]
+
+c. *What are the cash flow beta and the certainty equivalent for the BA Cityflyer project?* [@book, p.390]
+
+### Exercise 11.16
+
+*Risk-free rates at horizons of one year, two years and three years are 6.00 per cent per year, 6.25 per cent per year and 6.75 per cent per year, respectively. The manager of the space shuttle at Rockwell International forecasts respective cash flows of \$200 million, \$250 million and \$300 million for these three years under the risk-free scenario. Value each of these cash flows seperately.* [@book, p.390]
+
+# Hillier & Grinblatt: Chapter 12: Allocating Capital and Corporate Strategy
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 12.1
+
+*Assume that company A merges with company B. Assume that A's price/earnings ratio is 20 and B's is 15. If A accounts for 60 per cent of the earnings og the merged firm, and if there are no synergies between the two merged firms, what is the price/earnings ratio of the merged firm?* [@book, p.424]
+
+### Exercise 12.2
+
+*The XYZ firm can invest in new DRAM chip factory for $425 million. The factory, which must be invested today, has cash flows two years from now that depend on the state of the economy. The cash flows when the factory is running at full capacity are described by the following tree diagram:* [@book, p.424]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+*In year 1, the firm has the option of running the plant at less than full capacity. In this case, workers are laid off, production of memory chips is scaled down, and the subsequent cash flows are half of what they would be when the plant was running at full capacity.* [@book, p.424]
+
+*An alternative use for the firm's funds is investment in the market portfolio. In the states that correspond to the branches of the tree above, $1 invested in the market portfolio grows as follows:* [@book, p.424]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+```
+
+*Assume that the risk-free rate is 5 per cent per year, compounded annually. Compute the project's PV (a) with the option to scale down and (b) without the option to scale sown. Compute the difference between these two values, which is the value of the option.* [@book, p.425]
+
+### Exercise 12.3
+
+*Vacant land has been zoned for either one 10,000-square-foot five-unit apartment block or two single-family homes, each with 3,000 square feet. The cost of constructing the single-family homes is £100 per square foot and the cost of constructing the apartments is £120 per square foot. If the property market does well next year, the homes can be sold for £300 per square foot and can be sold for £200 per square foot and the apartments for £140 per square foot. Today, comparable homes could be sold for for £225 per square foot and comparable apartments for £180 per square foot. First-year rental rates (paid at the end of the year) on the comparable apartments and homes are 20 per cent and 10 per cent, respectively, of today's sales prices.* [@book, p.425]
+
+a. *What is implied risk-free rate, assuming that short selling is allowed?* [@book, p.425]
+
+b. *What is the value of the vacant land, assuming that building construction will take place immediately or one year from now? What is the best building alternative?* [@book, p.425]
+
+### Exercise 12.4
+
+*A silver mine has reserves of 25,000 troy ounces of silver. For simplicity, assume the following schedule for extraction, ore purification and sale of the silver ore:* [@book, p.425]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Also assume the following:* [@book, p.425]
+
+* *The mine, which will exhaust its supply of silver ore in two years, is assumed to have no salvage value.* [@book, p.425]
+
+* *There is no option to shut down the mine prematurely.* [@book, p.425]
+
+* *The current price of silver is £7.53 per troy ounce.* [@book, p.425]
+
+* *Today's forward price for silver settled one year from now £7.32 per troy ounce.* [@book, p.425]
+
+* *Today's forward price for silver settled two years from now is £7.75 per troy ounce.* [@book, p.425]
+
+* *The cost of extraction, ore purification and selling £1 per troy ounce now and at any point over the next two years.* [@book, p.425]
+
+* *The risk-free return is 6 per cent per year.* [@book, p.425]
+
+*What is the value of the silver mine?* [@book, p.425]
+
+### Exercise 12.5
+
+*Widget production and sales take place over a one-year cycle. For simplicity, assume that all costs are paid and all revenues are received at the end of the one-year cycle. A factory with a life of three years (from today) has a capacity to produce 1 million widgets each year (which are to be sold at the end of each year of production). Widgets produced within the last year have just been sold. Each year, production costs can either rise or decline by 50 per cent from the previous year's cost. Over the coming year, widgets will be produced at a cost of €2 per widget. Unlike production costs, which vary from year to year, the revenue from selling widgets is stable. Assume that in the coming year and in all future years the widget selling price is €4 per widget. The performance of a portfolio of equities in the widget industry depends entirely on expected future production costs. When widget production costs increase by 50 per cent from date $t$ to date $t+1$, the return on the industry portfolio over the same interval of time is assumed to be -30 per cent. If the production costs decline by 50 per cent, the industry portfolio return is assumed to be 40 per cent over that time period.* [@book, p.425]
+
+*Asume that the factory producing the widgets is to be closed down and sold for its salvage value whenever the cost of extraction per widget exceeds the selling price of a widget. This occurs at the beginning of the production year. Value the factory, assuming that its salvage value is zero and that the risk-free return is 4 per cent per year.* [@book, p.425-426]
+
+### Exercise 12.6
+
+*Assume that the future closing prices on the New York Mercantile Exchange at the end of August 2011 specify that futures prices per barrel for light sweet crude oil delivered monthly from mid-October 2011 through to mid-December 2013 are, respectively, \$101.56, \$101.08, \$100.63, \$100.23, \$99.88, \$99.55, \$99.26, \$99.00, \$98.76, \$98.58, \$98.41, \$98.25, \$98.09, \$97.93, \$97.83, \$97.77, \$97.71, \$97.66, \$97.61, \$97.56, \$97.52, \$97.48, \$97.46, \$97.46, \$97.46, \$97.47 and \$97.48. Compare the 27 August 2011 value of an oil well that produces 1,000 barrels of light sweet crude oil per month for the months October 2011 through to December 2013, after which the well will be dry. Assume that there are no options to increase or decrease production production, and that the cost of producing each barrel of oil and shipping it to market is \$10,000 per barrel. Also assume that the risk-free return is 4 per cent per year, compounded annually.* [@book, p.426]
+
+### Exercise 12.7
+
+*Compute the risk-neutral probabilities attached to the two states - high demand and low demand - in Example 12.2. Show that applying these probabilities to value the mine provides the same answer for valuing the outcomes in scenarios 1 and 2 as given in Example 12.2.* [@book, p.426]
+
+### Exercise 12.8
+
+*Although there is no empirical evidence to strongly support this hypothesis, some financial journalists have claimed that British managers are short-sighted and overly risk averse., prefering to take on relatively safe projects that pays off quickly instead of taking on longer-term projects with less certain pay-offs. Assume the journalists are correct.* [@book, p.426]
+
+a. *Explain why managers who use a single discount rate for valuing projects are likely to have a systematic bias against longer-term projects if the systematic risk of the cash flows of many long-term investment projects declines over time.* [@book, p.426]
+
+b. *Discuss how the presence of strategic investment options affects the decisions to adopt long-term over short-term investments.* [@book, p.426]
+
+### Exercise 12.9
+
+*Example 12.9 illustrates how an increase in leverage can affect GlaxoSmithKline's price/earnings ratio. If the interest rate on the new debt was 12 per cent rather than 6 per cent, would the firm's price/earnings ratio increase or decrease?* [@book, p.426]
+
+### Exercise 12.10
+
+*Porter and Spence (1982) pointed out that firms may want to overinvest in production capacity to show a commitment to maintain their market share to competitors. In their model, excess plant capacity would not be a positive-NPV project if the cash flow calculations take the competitors' actions as given. However, since competitors are less likely to enter a market when the incumbent firm has execc capacity, the added capacity may be worth while even if it is never used. Comment on whether this strategic consideration should be taken into account when analysing an investment project.* [@book, p.426]
+
+### Exercise 12.11
+
+*Solve the unlevered price/earnings ratio, A/X, by rearranging equation (12.1).* [@book, p.426]
+
+# Hillier & Grinblatt: Chapter 13: Corporate Taxes and the Impact of Financing on Real Asset Valuation
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 13.1
+
+*Exercises 13.1 - 13.7 make use of the following data.* [@book, p.458]
+
+*In 1985, General Motors (GM) was evaluating the acquisition of Hughes Aitcraft Corporation. Recognizing that the appropriate WACC for discounting the projected cash flows for Hughes was different from General Motors' WACC, GM assumed that Hughes was of approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similar to those of Hughes. Specifically, assume the Hamada model of debt interest tax shields and the inputs in the table.* [@book, p.458]
+
+*Analyse the Hughes acquisition by first computing the betas of the comparison firms, Lockheed and Northrop, as if they were all equity financed. (Hint: use equation (13.7) to obtain $\beta_{UA}$ from $\beta_E$.)* [@book, p.459]
+
+### Exercise 13.2
+
+*Exercises 13.1 - 13.7 make use of the following data.* [@book, p.458]
+
+*In 1985, General Motors (GM) was evaluating the acquisition of Hughes Aitcraft Corporation. Recognizing that the appropriate WACC for discounting the projected cash flows for Hughes was different from General Motors' WACC, GM assumed that Hughes was of approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similar to those of Hughes. Specifically, assume the Hamada model of debt interest tax shields and the inputs in the table.* [@book, p.458]
+
+*Compute $\beta_{UA}$, the beta of the unlevered assets of the Hughes acquisition, by taking the average of the betas of the unlevered assets of Lockheed and Northrop.* [@book, p.459]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+### Exercise 13.3
+
+*Exercises 13.1 - 13.7 make use of the following data.* [@book, p.458]
+
+*In 1985, General Motors (GM) was evaluating the acquisition of Hughes Aitcraft Corporation. Recognizing that the appropriate WACC for discounting the projected cash flows for Hughes was different from General Motors' WACC, GM assumed that Hughes was of approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similar to those of Hughes. Specifically, assume the Hamada model of debt interest tax shields and the inputs in the table.* [@book, p.458]
+
+*Compute the $\beta_E$ for the Hughes acquisition at the target debt level.* [@book, p.459]
+
+### Exercise 13.4
+
+*Exercises 13.1 - 13.7 make use of the following data.* [@book, p.458]
+
+*In 1985, General Motors (GM) was evaluating the acquisition of Hughes Aitcraft Corporation. Recognizing that the appropriate WACC for discounting the projected cash flows for Hughes was different from General Motors' WACC, GM assumed that Hughes was of approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similar to those of Hughes. Specifically, assume the Hamada model of debt interest tax shields and the inputs in the table.* [@book, p.458]
+
+*Compute the WACC for the Hughes acquisition.* [@book, p.459]
+
+### Exercise 13.5
+
+*Exercises 13.1 - 13.7 make use of the following data.* [@book, p.458]
+
+*In 1985, General Motors (GM) was evaluating the acquisition of Hughes Aitcraft Corporation. Recognizing that the appropriate WACC for discounting the projected cash flows for Hughes was different from General Motors' WACC, GM assumed that Hughes was of approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similar to those of Hughes. Specifically, assume the Hamada model of debt interest tax shields and the inputs in the table.* [@book, p.458]
+
+*Compute the value of Hughes with the WACC from exercise 13.4* [@book, p.459]
+
+### Exercise 13.6
+
+*Exercises 13.1 - 13.7 make use of the following data.* [@book, p.458]
+
+*In 1985, General Motors (GM) was evaluating the acquisition of Hughes Aitcraft Corporation. Recognizing that the appropriate WACC for discounting the projected cash flows for Hughes was different from General Motors' WACC, GM assumed that Hughes was of approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similar to those of Hughes. Specifically, assume the Hamada model of debt interest tax shields and the inputs in the table.* [@book, p.458]
+
+*Compute the value of Hughes if the WACC of GM at its existing leverage ratio is used instead of the WACC computed from the comparison firms (see exercise 13.4).* [@book, p.459]
+
+### Exercise 13.7
+
+*Exercises 13.1 - 13.7 make use of the following data.* [@book, p.458]
+
+*In 1985, General Motors (GM) was evaluating the acquisition of Hughes Aitcraft Corporation. Recognizing that the appropriate WACC for discounting the projected cash flows for Hughes was different from General Motors' WACC, GM assumed that Hughes was of approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similar to those of Hughes. Specifically, assume the Hamada model of debt interest tax shields and the inputs in the table.* [@book, p.458]
+
+*Apply the APV method. First, compute the value of the unlevered assets of the Hughes acquisition. Next, compute the present value of the tax shield. Finally, add the two numbers.* [@book, p.459]
+
+### Exercise 13.8
+
+*Compute the WACC of BA Cityflyer in Example 13.15 by doing the following.* [@book, p.459]
+
+a. *Compute the $\beta_E$, of BA Cityflyer using equation (13.6).* [@book, p.459]
+
+b. *Apply the CAPM's risk-expected return equation to obtain BA Cityflyer's $\bar{r}_E$, assuming a risk-free rate of 6 per cent and a market risk premium of 8.4 per cent.* [@book, p.459]
+
+c. *Estimate the WACC, using equation (13.8).* [@book, p.459]
+
+d. *Compare this WACC with the WACC in Example 13.15. If they are not the same, you have made a mistake.* [@book, p.459]
+
+### Exercise 13.9
+
+*GT Associates have plans to strat a widget company financed with 60 per cent debt and 40 per cent equity. Other widget companies are financed with 25 per cent debt and 75 per cent equity, and have equity betas of 1.5. GT's borrowing costs will be 14 per cent, the risk-free rate is 6 per cent, and the expected rate of return on the market is 10 per cent. The tax rate is 28 per cent. Compute the equity beta and WACC for GT Associates.* [@book, p.459]
+
+### Exercise 13.10
+
+*The HTT Company is considering a new product. The new product has a five-year life. Sales and net income after taxes for the new product are estimated in the following table.* [@book, p.459]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*The equipment to produce the new product costs €500,000. The €500,000 would be borrowed at a risk-free interest rate of 5 per cent. However, the $\bar{r}_E$ machine adds only €300,000 to the firm's debt capacity in years 1, 2 and 3, and only €200,000 in years 4 and 5.* [@book, p.460]
+
+*Although net income includes the depreciation deduction, it does not include the interest deduction (that is, it assumes that the equipment is financed with equity). The equipment can be depreciated on a straight-line basis over a five-year life at €100,000 per year. The equipment is expected to be sold for €100,000 in five years.* [@book, p.460]
+
+*Net working capital (NWC) required to support the new product is estimated to be equal to 10 per cent of net sales of the new product. The NWC will be needed at the start of the year. This means that if sales were €1 in year 1, the NWC needed to support this one euro of sales would be committed at the beginning of year 1. The company's discount rate for the unlevered cash flows associated with this new product is 18 per cent, and the tax rate is 37.3 per cent.* [@book, p.460]
+
+*What is the NPV of this project?* [@book, p.460]
+
+### Exercise 13.11
+
+*Compute the NPV of the online air ticket purchasing scheme in Example 13.4, assuming that the debt capacity of the project zero.* [@book, p.460]
+
+### Exercise 13.12
+
+*Use the risk-neutral valuation method to directly show that the risk-neutral discounted value of the existing debt of Glastron is €636,000 higher if the project in Example 13.17 is adopted.* [@book, p.460]
+
+### Exercise 13.13
+
+*Applied Micro Devices (AMD) currently spends £213,333 a year leasing office space in Leeds, UK. Because lease payments are tax deductible at a 28 per cent corporate tax rate, the firm spends about £153,600 per year $\left[= £213,333\left(1-0.28\right)\right]$ on an after-tax basis to lease the building. The firm has no debt, and has an equity beta of 2. Assuming an expected market return of 12 per cent and a risk-free rate of 6 per cent, its CAPM-based cost of capital is 18 per cent. Suppose AMD has the opportunity to buy its office space for £1 million. The office building is a relatively risk-free investment. The firm can finance 100 per cent of the purchase with tax-deductible mortgage payments. The mortgage rate is only slightly higher than the risk-free rate. How does AMD determine whether to buy the building or continue to lease it?* [@book, p.460]
+
+### Exercise 13.14
+
+*SL is currently an all-equity-firm with a beta of equity of 1. The risk-free rate is 6 per cent and the market risk premium is 11 per cent. Assume the CAPM is true, and that there are no taxes. What is the company's WACC? If management levers the company at a debt to equity ratio of 5 to 1, using perpetual riskless debt, what will the WACC become? How would your WACC answer change if the government raised the tax rate from zero to 28 per cent?* [@book, p.460]
+
+### Exercise 13.15
+
+*Akron plc consists of £50 million in perpetual riskless debt and £50 million in equity. The current market value of its assets is £100 million and the beta of its equity return is 1.2. Assume the risk-free rate is 6 per cent, the expected return of the market portfolio is 13 per cent per year, and the CAPM is true. Compute the expected return of Akron's equity and its WACC assuming a 28 per cent corporate tax rate.* [@book, p.460]
+
+### Exercise 13.16
+
+*Akron, from the last example, is considering an exchange offer where half of Akron's outstanding debt (£25 million) is retired. The purchase of this debt would be financed by issuing £25 million in equity to the debt holders of Akron. Assuming debt policy that is consistent with the Hamada model, what will Akron's new WACC be after the exchange offer?* [@book, p.460]
+
+# Hillier & Grinblatt: Chapter 14: How Taxes Affect Financing Choices
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 14.1
+
+*Suppose $r_D=12\%$, $\bar{r}_E=10\%$, $T_C=33\%$, $T_D=20\%$.* [@book, p.492]
+
+a. *What is the marginal tax rate on equity income, $T_D$, that would make an investor indifferent in terms of after-tax returns between holding equity or bonds? Assume all betas are zero.* [@book, p.492]
+
+b. *What is the probability that a firm will not utilize its tax shield if, on the margin, the firm is indifferent between issuing a little more debt or equity?* [@book, p.492]
+
+### Exercise 14.2
+
+*Consider a single-period binomial setting where the riskless interest rate is zero, and there are no taxes. A firm consists of a machine that will produce cash flows of £210 if the economy is good and £80 if the economy is bad. The good and bad states occur with equal risk-neutral probability. Initially, the firm has 100 share outstanding, and debt with a face value of £50 due at the end of the period. What is the share price of the firm?* [@book, p.492]
+
+### Exercise 14.3
+
+*Suppose the firm in exercise 14.2 unexpectedly announces that it will issue additional debt, with the same seniority as existing debt and a face value of £50. The firm will use the entire proceeds to repurchase some of the outstanding shares.* [@book, p.492]
+
+a. *What is the market price of the new debt?* [@book, p.492]
+
+b. *Just after the announcement, what will the price of a share jump to?* [@book, p.492]
+
+c. *Show how a shareholder with 20 per cent of the shares outstanding is better off as a result of this transaction when he or she undoes the leverage change.* [@book, p.492]
+
+d. *Show how the Modigliani-Miller Theorem still holds.* [@book, p.492]
+
+### Exercise 14.4
+
+*Assume that the real riskless interest rate is zero and the corporate tax rate is 12.5 per cent. TAL Industries can borrow at the riskless interest rate. It will have an inflation-adjusted EBIT next year of €200 million. It would like to borrow €50 million today. Its only deductions will be interest payments (if any).* [@book, p.492]
+
+a. *What are its interest payments, taxable income, tax payments and income left for shareholders in a no-inflation environment?* [@book, p.492]
+
+b. *Suppose there is inflation of 10 per cent per year, but the real interest rate stays at zero. This means that investors now will require a sure payment of €1.10 next year for each €1.00 loaned today. Repeat part a, assuming that EBIT is affected by inflation.* [@book, p.492]
+
+c. *In which environment is the inflation-adjusted income left for shareholders higher? Why?* [@book, p.493]
+
+### Exercise 14.5
+
+*As owner of 10 per cent of ABC industries, you have control of its capital structure decision. The current corporate tax rate is 25 per cent, and your personal tax rate is 20 per cent. Assume that the returns to shareholders accrue as non-taxable capital gains. ABC currently has no debt, and can finance the repurchase of 10 per cent of its outstanding shares by borrowing \$100 million at the risk-free rate of 10 per cent. The long-term government bond rate is 8 per cent. If you hold your 10 per cent of the firm constant and buy the long-term government bonds, what is your annual after-tax gain from this transaction?* [@book, p.493]
+
+### Exercise 14.6
+
+*Explain how inflation affects the capital structure decision. Does inflation affect the capital structure choice differently for different firms?* [@book, p.493]
+
+### Exercise 14.7
+
+*Assume the corporate tax rate is 50 per cent, AAA corporate bonds are trading at a yield of 9 per cent, and long-term government bonds are trading at a yield of 6 per cent. How can the shareholders of an AAA-rated firm gain by increasing the leverage of their firm without increasing the leverage of their personal portfolio? Assume the probability of bankruptcy is zero.* [@book, p.493]
+
+### Exercise 14.8
+
+*New start-up airlines will normally lease used commercial aeroplanes, whereas older, more established airline firms will tend to buy new aeroplanes. Explain Why.* [@book, p.493]
+
+### Exercise 14.9
+
+*Restaurant chains like McDonald's sometimes franchise their restaurants and sometimes own them outright. The franchised restaurants are usually owned by individuals who hold them as sole ownership firms or partnerships, which pass income through directly to the owners. There is no corporate tax on this income, but the owner must pay personal taxes on the income.* [@book, p.493]
+
+a. *From the perspective of the owner of the franchise, is there a tax advantage to debt financing?* [@book, p.493]
+
+b. *Which organizational form is better from the perspective of tax minimization: corporate ownership of the individual restaurants or franchises?* [@book, p.493]
+
+### Exercise 14.10
+
+*REITs are companies set up to manage investment properties such as office buildings and apartment houses. They are not subject to corporate taxes. How do we expect taxes to affect the capital structure choice of REITs?* [@book, p.493]
+
+### Exercise 14.11
+
+*X-tex Industries has a large depreciation tax deductions, and can thus eliminate all of its taxable income with a relatively small amount of debt. In constrant, Unique Scientific Equipment Corporation is generating a substantial amount of taxable income. Despite the tax advantage of debt, Unique uses only a modest amount of debt financing, because the nature of its products would make financial distress very costly. Suppose the rate of inflation increased from 3 per cent to 6 per cent, increaseing borrowing rates from 6 per cent to 9 per cent. How would this affect the optimal capital structures of these two firms?* [@book, p.493]
+
+### Exercise 14.12
+
+*Helix started an Internet company, Survey-Partner.com, which, unlike others in the industry, generated taxable earnings almost immediately. Hwlix 10 per cent of the shares, and the rest of the shares are held by tax-exempt institutions. The firm needs to raise £100 to purchase £10 million of the new equity to keep his ownership stake constant. However, the institutions would like to see the firm raise the capital through debt. Explain how part of this disagreement might be related to taxes.* [@book, p.493]
+
+### Exercise 14.13
+
+*ABC GmbH, financed with both equity and €10 million in perpetual debt, has pre-tax cash flow estimates for the current year as follows:* [@book, p.493]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*The corporate tax rate is 38.36 per cent, the effective personal tax rate on equity is 0 per cent, and the interest rate on the perpetual debt os 10 per cent. If the expected after-tax cash flows to the debt holders, as a group, are the same as the expected after-tax cash flows to the equity holders, as a group, what is the personal tax rate on debt?* [@book, p.494]
+
+### Exercise 14.14
+
+*B&D Builders Ltd is financed entirly with equity, and has grown very quickly over the past eight years. The firm has hired the consulting firm of M&P Ltd to analyse the firm's financing. The consulting firm recommends that the firm borrow £100 million (face value) in perpetual riskless debt (the current market interest of) 10 per cent and buy back £100 million in equity. The founders, a team of brothers who know how to build houses very well, but not finance, explain that taking on debt would reduce the earnings available to equity each year by the amount of the interest, thus reducing the value of the equity;s claim, and therefore would not benefit the shareholders, most of whom are family. Analyse the founders' argument, and compute the value of the debt tax shield proposed by M&P Ltd, assuming $T_E=0.18$, $T_D=0.40$, and $T_C=0.28$.* [@book, p.494]
+
+# Hillier & Grinblatt: Chapter 15: How Taxes Affect Dividends and Share Repurchases
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 15.1
+
+*Explain why the proportion of earnings distributed in the form of a share repurchase has increased substantially over the past 35 years.* [@book, p.518]
+
+### Exercise 15.2
+
+*You are considering buying shares in AMEC plc, which is trading today at £12.31 a share. AMEC is going ex-dividend tomorrow, paying out £2.00 per share. If you believe the equity will drop to £11 following the dividend, should you buy the equity before or after the dividend payment? Explain how your answer depends on the tax rate on ordinary income, cpaital gains and your expected holding period.* [@book, p.518]
+
+### Exercise 15.3
+
+*Hot Shot Uranium Mines is issuing equity for the first time and needs to determine an initial proportion of debt and equity. In its first years, the firm will have substantial tax write-offs as it amortizes the uranium in the mine. In later years, however, it will have high taxable earnings. Make a proposal regarding the firm's optimal capital structure and future payout policy.* [@book, p.518]
+
+### Exercise 15.4
+
+*Suppose you are a manager who wants to retain as much as possible of the firm's earnings in order to increase the size of the firm. How would you react to proposals to repurchase shares that would make it less costly to distribute cash to shareholders? How does your reaction relate to your answer in exercise 15.1?* [@book, p.518]
+
+### Exercise 15.5
+
+*Hunter Industries has generated £1 million in excess of its investment needs. The firm can invest the excess cash in Treasury bonds at 8 per cent or distribute the cash to shareholders as a dividend. Assume that the corporate tax is 28 per cent and that the firm is owned by three different kinds of taxpayer: the first type is tax exempt, the second type has a 25 per cent marginal tax rate, and the third type has a 40 per cent marginal tax rate. Describe the decision preferred by the three different investors, indicating the reasons for the decision and providing calculations to show your conclusions. Next, consider the possibility that the firm can invest in preferred equity that pays 7 per cent per year. Describe how this would affect Hunter's decision, given the 70 per cent dividend exclusion for corporate investors.* [@book, p.518]
+
+### Exercise 15.6
+
+*Suppose that the capital gains tax rate in the USA is expected to increase in three years. How would this affect Steve Balmer's decision on whether Microsoft should use some of the company's excess cash to repurchase shares?* [@book, p.518]
+
+### Exercise 15.7
+
+*The XYZ Corporation has an expected dividend of €4 one period from now. This dividend is expected to grow by 2 per cent per period.* [@book, p.518]
+
+a. *What is the value of a share of equity, assuming that the appropriate discount rate for expected future dividends (e.g. the expected rate of appreciation in the share price of XYZ between dividends) is 10 per cent per period? For your answer, assume that the effective personal tax rate on dividends is 20 per cent and the effective personal tax rate on capital gains and share repurchases is zero.* [@book, p.518]
+
+b. *The XYZ Corporation announces that it will stop paying dividends. Instead, the company will engage in an equity repurchase plan under which future cash that would previously have been earmarked for dividend payments will now be used exclusively for equity repurchases. Assuming no information effects, what should the new price of a share of XYZ be when market participants first learn of this announcement?* [@book, p.518]
+
+### Exercise 15.8
+
+*Alpha Corporation earned £150 million in before-tax profits in 2011. Its corporate tax rate is 28 per cent. Con Daniels, who owns 20 per cent of the firm's shares, has a personal marginal tax rate of 22.5 per cent on dividend income. From Daniels' perspective, what is the effective tax rate on Alpha's profits if its entire after-tax profits are distributed as a dividend?* [@book, p.519]
+
+### Exercise 15.9
+
+*You are engineering an LBO of Suntharee Indistries, an industrial bottle maker. After the LBO, the firm will be financed 90 per cent with the debt and 10 per cent with equity. Maria Benjamin, the CEO, will own 30 per cent of the shares. Maria thinks the proposed capital structure is too highly levered, and points out that, in the first few years, the firm will not be able to use all its debt tax shields. Initially, the interest payments are €400 million per year and EBIT is only €300 million per year. However, EBIT is projected to increase by 20 per cent per year for the next five years.* [@book, p.519]
+
+*Give Maria a pure tax argument that supports the high level of debt. Take into account her personal taxes as well as corporate taxes. Does your tax argument depend on whether Maria wants to dilute her iwnership of the company in the future?* [@book, p.519]
+
+# Hillier & Grinblatt: Chapter 16: Bankruptcy Costs and Debt Holder-Equity Holder Conflicts
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 16.1
+
+*A firm has £100 million in cash on hand, and a debt obligation of £100 million due in the next period. With this cash, it can take on one of two projects - A or B - which cost £100  million each. Assume that the firm cannot raise any additional outside funds. If the economy is favourable, project A will pay £120 million and project B will pay £101 million. If the economy is unfavourable, project A will pay £60 million and project B will pay £101 million. Assume that investors are risk neutral, there are no taxes or direct costs of bankruptcy, the riskless interest rate is zero, and the probability of each state 0.5.* [@book, p.550]
+
+a. *What is the NPV of each project?* [@book, p.550]
+
+b. *Which project will equity holders want the managers to take? Why?* [@book, p.550]
+
+### Exercise 16.2
+
+*Julio decides he can manufacture deep-fried Mars bars for one period and will have cash flows next period of €210 if the economy is favourable, and €66 if the economy is unfavourable. One-third of these proceeds must be paid out in taxes if the firm is all equity financed; however, because of the tax advantage of debt, Julio saves €0.05 in taxes for every €1.00 of debt financing that he uses. Assume investors are risk neutral, the riskless rate is 10 per cent per period, and the probability of each state is 0.5. Also assume that if Julio's firm goes bankrupt and debt holders take over, the legal fees and other bankruptcy costs total €20.* [@book, p.550-551]
+
+a. *If Julio organizes his firm as all equity, what will it be worth?* [@book, p.551]
+
+b. *Suppose Julio's firm sold a zero-coupon bond worth €44 at maturity next period. How much would the firm receive for the debt?* [@book, p.551]
+
+c. *With the debt level above, how much would the equity be worth?* [@book, p.551]
+
+d. *How much would the firm be worth?* [@book, p.551]
+
+e. *Would the firm be worth more if it had a debt obligation of €70 next period?* [@book, p.551]
+
+### Exercise 16.3
+
+*A firm has a senior bond obligation of €20 due this period and €100 next period. It also has a subordinated loan of €40 owed to Jack and Jill and due next period. It has no projects to provide cash flows this period. Therefore, if the firm cannot get a loan of €20, it must liquidate. The firm has a current liquidation value of €120. If the firm does not liquidate, it can take one of two projects with no additional investment. If it takes project A, it will receive cash flows of €135 next period, for sure. If the firm takes project B, it will receive cash flows of either €161 or €69 with equal probability. Assume risk neutrality, a zero interest rate, no direct bankruptcy costs and no taxes.* [@book, p.551]
+
+a. *Which has a higher PV: liquidating, project A, or project B?* [@book, p.551]
+
+b. *Should Jack and Jill agree to lend the firm €20 it needs to stay operating if they receive a (subordinated) bond with a face value of €20.50?* [@book, p.551]
+
+c. *If the firm does receive the loan from Jack and Jill, which project will the managers choose if they act in the interest of the equity holders?* [@book, p.551]
+
+### Exercise 16.4
+
+*Larsson Fashion Corporation (LFC) can pursue either project Dress or project Cosmetic, with possible pay-oods at year-end as follows:* [@book, p.551]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*Each project costs SKr60 million at the beginning of the year. Assume there are no taxes, there are no direct bankruptcy costs, all investors are risk neutral, and the risk-free interest rate is zero.* [@book, p.551]
+
+a. *Which project should LFC pursue if it is all equity financed? Why?* [@book, p.551]
+
+b. *If LFC has a SKr50 million bond obligation at the end of the year, which project would its equity holders want to pursue? Why?* [@book, p.551]
+
+### Exercise 16.5
+
+*Sigma Design, a computer interface start-up firm with no tangible assets, has invested R500,000 in R&D. The success of the R&D effort as well as the state of the economy will be observed in one year. If the R&D is succesful (prob. = 90%), Sigma requires a R530,000 investment to start manufacturing. If the economy is favourable (prob. = 90%), the project is worth R1,530,000 and, if it is unfavourable, the project will have a value of R610,000. Demonstrate how the value of Sigma is affected by whether or not it was originally financed with debt or with equity. Assume no taxes, no direct bankruptcy costs, all investors are risk neutral, and the risk-free interest rate is zero.* [@book, p.551]
+
+### Exercise 16.6
+
+*In Germany, financial institutions hold significant equity interest in the borrowing firms. How does this affect the costs of financial distress and bankruptcy?* [@book, p.551]
+
+### Exercise 16.7
+
+*Describe the relation between the zero-beta expected return on common stock and the zero-beta expected return on corporate bonds in an economy where stock returns are taxed more favourable than bond returns, interest payments are tax deductible, and bankruptcy costs are important determinants of a firm's capital structure choice.* [@book, p.551]
+
+### Exercise 16.8
+
+*ABC plc, which currently has no assets, is considering two projects that each cost £100. Project A pays off £120 next year in the good state of the economy and £60 in the bad state of the economy. If the two states are equally likely, there are no taxes ordirect bankruptcy costs, the risk-free rate of interest is zero, and investors are all risk neutral, which project would equity holders prefer if the firm is 100 per cent equity financed? Which project would equity holders prefer if the firm has an £85 bond obligation due next year?* [@book, p.551-552]
+
+### Exercise 16.9
+
+*Suppose you are hired as a consultant for Tailways, just after a recapitalization that increased the firm's debt-to-assets ratio to 80 per cent. The firm has the opportunity to take on a risk-free project yielding 10 per cent, which you must analyse. You note that the risk-free rate is 8 per cent, and apply what you learned in Chapter 11 about taking positive-NPV projects: that is, accept those projects that generate expected returns that exceed the appropriate risk-adjusted discount rate of the project. You recommend that Tailways takes the project.* [@book, p.552]
+
+*Unfortunately, your client is not impressed with your recommendation. Because Tailways is highly levered and is in risk of default, its borrowing rate is 4 per cent greater than the risk-free rate. After reviewing your recommendation, the company CEO has asked you to explain how this 'positive-NPV project' can make him money when he is forced to borrow at 12 per cent to fund a project yielding 10 per cent. You wonder how you bungled an assignment as simple as evaluating a risk-free project. What have you done wrong?* [@book, p.552]
+
+### Exercise 16.10
+
+*In the event of bankruptcy, the control of a firm passes from the equity holders to the debt holders. Describe differences in the preferences of the equity holders and debt holders, and how decisions following bankruptcy proceedings are likely to change.* [@book, p.552]
+
+### Exercise 16.11
+
+*Why are debt holder-equity holder incentive problems less severe for firms that borrow short term rather than long term?* [@book, p.552]
+
+### Exercise 16.12
+
+*Consider the case of Ajax Manufacturing, which was just completed an R&D project on satellite navigation that required a €70 million bond obligtion. The R&D effort resulted in an investment opportunity that will cost €75 million and generate cash flows of €85 million in the event of a recession (prob. = 20%) and €150 million if economic conditions are favourable (prob. = 80%). What is the NPV of the project assuming no taxes, no direct bankruptcy costs, risk neutrality, and risk-free interest rate of zero? Can the firm fund the project if the original debt is a senior obligation that doesn't allow the firm to issue additional debt?* [@book, p.552]
+
+### Exercise 16.13
+
+*Assume now that if Ajax Manufacturing (see exercise 16.12) uses a more capital-intensive manufacturing process, it can produce a greater number of satellite navigation tools at a lower variable cost. Given the greater fixed costs, the cash flows are only €5 million in an unfavourable economy with the capital-intensive process but are €170 million in a favourable economy. Hence equity holders would receive €100 million in the good state of the economy (€170 million - €70 million) and zero in a recession, because €5 million is less than the €70 million debt obligation. Can the firm issue equity to fund the project?* [@book, p.552]
+
+### Exercise 16.14
+
+*When firms go into administration, they may be able to obtain additional amounts of debt that is senior to the firm;s existing debt. Explain how the firm's existing debt holders can benefit from this.* [@book, p.552]
+
+### Exercise 16.15
+
+*You have been hired as a bond analyst. A highly levered firm, Emax, has switched to a more flexible management process that enables it to change its investment strategy more quickly. How do you expect this change in the management process to affect bond values?* [@book, p.552]
+
+### Exercise 16.16
+
+*Atways is involved in two similar mining projects. The Tanzania project was financed through the firm's internal cash flows, and appears as an asset on its balance sheet. The Zambia project was set up as a wholly owned subsidiary of Atways. The subsidiary was financed 20 per cent with equity provided by Atways and 80 per cent with non-recourse debt.* [@book, p.552]
+
+*How do the different ways that these projects were originally financed and structured affect future investment and operating decisions?* [@book, p.552]
+
+# Hillier & Grinblatt: Chapter 17: Capital Structure and Corporate Strategy
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 17.1
+
+*What are the differences between direct and indirect bankruptcy costs? Who bears these costs? Explain your answer by referring to real situation from the recent past.* [@book, p.575]
+
+### Exercise 17.2
+
+*As a potential employee, why might you be interested in the employer's capital structure?* [@book, p.575]
+
+### Exercise 17.3
+
+*Compare qualitatively the indirect bankruptcy costs of operating a franchised hotel with those of a running a high-tech start-up computer firm.* [@book, p.575]
+
+### Exercise 17.4
+
+*You are the manager of a company that produces motor vehicles. A union contract will come up for renegotiation in two months, and you wish to increase your firm's bargaining power prior to hearing the union's initial demands. The union is likely to ask for a 25 per centincrease from existing wage levels of €20 per hour for the 1,000 workers at your company. Workers typically work 2,000 hours per year. The firm has €100 million of debt outstanding at an interest rate of 10 per cent annually, and an equity market value of €200 million. Income before interest is €20 million per year. Assume no taxes. What specific financing strategies would you implement, and why?* [@book, p.575]
+
+### Exercise 17.5
+
+*BCD Manufacturing is considering repurchasing 40 per cent of its equity. Management estimates the tax savings from such a move to be £33.6 million, based on the addition of £1 billion of debt at a rate of 12 per cent with a 28 per cent marginal tax rate. However, the company's suppliers are unhappy with the decision, and are threatening to revoke the company's net-30 day credit terms, which will cost the firm an additional 2 per cent on its £1.5 billion inventory. Should management go ahead with the repurchase? Why or why not?* [@book, p.575]
+
+### Exercise 17.6
+
+*FagEnd and DeathBreath, two cigarate producers of comparable size, are struggling for market share in a declining market. FagEnd has just undergone a levered buyout, and is able to meet its fixed expenses with its existing market share, but it may be forced into bankruptcy if it loses market share. As a manager of DeathBreath, how would you establish your pricing policy? If FagEnd enters bankruptcy, it would (a) be forced to liquidate, (b) lose market share because of customer concerns, or (c) emerge recapitalized with no harm to narket share. How would these three possibilities affect your decision?* [@book, p.575-576]
+
+### Exercise 17.7
+
+*Comparing the indirect costs of bankruptcy, explain why TomTom includes very little debt in its capital structure whereas Alitalia uses fairly large amount of debt.* [@book, p.576]
+
+### Exercise 17.8
+
+*Describe the trade-offs involved when firms decide how to price their products. What are the costs and benefits of raising prices? How do interest rates affect the decision? How do leverage ratios affect the decision?* [@book, p.576]
+
+### Exercise 17.9
+
+*Weston Trattore is a cyclical business that is forced to lay off workers during downturns. The CEO estimates that they saved €50 million during the last recession by laying off excess labour. However, the company had additional expenses of €70 million three years later when it had to retain the new workers. The firm is currently facing a similar situation. The risk-free rate is 4 per cent, but Weston's current borrowing rate is 10 per cent. Should Weston lay off the workers? If Weston was less hihly levered, it would be able to borrow at 6 per cent. How would this affect the firm's decision? Discuss how a prospective employee would react on learning that Weston was its leverage substantially.* [@book, p.576]
+
+### Exercise 17.10
+
+*Compass Computers has suffered an unexpected loss and is currently having financial difficulties. Explain why Compass may choose not to issue equity to solve its financial problems. If Compass does not issue equity, should it change its product market strategy to account for the firm's weaker financial health?* [@book, p.576]
+
+### Exercise 17.11
+
+*As the CEO, which do you prefer: a competitor with high leverageor one with low leverage? Under what conditions will you act more or less aggressively if your competitor is highly levered?* [@book, p.576]
+
+### Exercise 17.12
+
+*Compton Holdings currently has 2 million shares outstanding at £3 per share. Because the company is having financial difficulties, it also has £50 million in face value of long-term outstanding debt that is selling at only 60 per cent of its face value. As Compton's CEO, you estimate that you will need a cash inflow of £10 million within six months to meet your payroll. Since covenants in the existing debt preclude further debt financing, you are forced to consider an equity offering. Is suchan offering possible, assuming the equity issue would result in a 20 per cent increase in the value of the debt? Explain why.* [@book, p.576]
+
+### Exercise 17.13
+
+*You have been hired by TomTom, the Dutch satnav firm, to advise it on its capital structure. This €869 million company would like to raise an additional €250 million to acquire the assets of one of its competitors. It currently has very little debt, but it is considering borrowing the entire €250 million. In order to make your recommendation, you have asked the following questions.* [@book, p.576]
+
+a. *Is the CEO, who is a major shareholder, planning on reducing his stake in the business?* [@book, p.576]
+
+b. *Does TomTom require specially trained TomTom technicians for servicing, or can the service be acquired from a variety of sources?* [@book, p.576]
+
+c. *Does TomTom expect to be generating significant amounts of cash in excess of its investment needs in the future, or is it likely to require additional external capital in the future?* [@book, p.576]
+
+### Exercise 17.14
+
+*In 1999 Chrysler had close to \$10 billion in cash on its balance sheet invested in short-term securities. Kerkorian, Chrysler's largest shareholder, wanted Chrysler to use the cash to buy bacj shares. At the very least, Kerkorian thought that the cash, which yoelded about 4 per cent, should be used to repurchase the company's outstanding bonds, which yielded 7 per cent. How can you justify holding cash yielding 4 per cent when the firm has bonds that can be retired that yield 7 per cent?* [@book, p.576]
+
+### Exercise 17.15
+
+*Explain why grocery store prices tended to increase in markets where one or more of the main competitors initiated an LBO. (Hint: think of market share as an investment.)* [@book, p.576]
+
+### Exercise 17.16
+
+*Over the past 20 years, the transaction costs associated with issuing and repurchasing debt and equity securities have declined. What effect do you yhink this change has had on capital structure choices?* [@book, p.576]
+
+# Hillier & Grinblatt: Chapter 18: How Managerial Incentives Affect Financial Decisions
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 18.1
+
+*Discuss why managers might tend to want their organizations to grow.* [@book, p.609]
+
+### Exercise 18.2
+
+*Discuss the factors that determine whether firms are likely to have large ownership concentrations.* [@book, p.609]
+
+### Exercise 18.3
+
+*Jimmy Johnstone, the CEO of High Tech Industries, owns 51 per cent of the shares of his £50 million company. The firm is strating a new project that requires £25 million in new equity capital. Johnstone is considering two ways to fund the project. The first is to issue £25 million in new equity. The second is to form a partially owned subsidiary of High Tech, which would be called Super Tech, and have the subsidiary issue the equity. Under the second proposal, Super Tech would be 55 per cent owned by High Tech and 45 per cent owned by new shareholders. Describe how the incentives of the managers of the managersof the new business and Jimmy Johnstoneare likely to be affected by the two proposals.* [@book, p.609]
+
+### Exercise 18.4
+
+*Consider three similar firms that differ only in the extent to which they are controlled by their boards of directors. In firm 1, the board has complete control of the investment decisions, operating decisions and financing choices. In firm 2, the board is unable to monitor investment and operating decisions, but does control financing decisions. In firm 3, the board has very little control over either investment, operating or financing decisions. Describe how debt ratios are likely to differ in the three firms.* [@book, p.609]
+
+### Exercise 18.5
+
+*As apolicy analyst, you are asked to comment on a proposed law that wouldmake it more difficult for large outside shareholders to extract private benefits from the partial control they can exert over management. How would such a law affect the incentives of outside shareholders to monitor management?* [@book, p.609]
+
+### Exercise 18.6
+
+*You are a member of the compensation committee of the board of directors for both Fiat and BP. How should the compensation contracts for the CEOs of these two companies differ?* [@book, p.609]
+
+### Exercise 18.7
+
+*The tendency of firms to use equity-based compensation is higher for firms with higher market-to-book ratios. Provide two explanations for this empirical observation.* [@book, p.609]
+
+### Exercise 18.8
+
+*Cybertex's management currently owns 1 per cent of the firm's outstanding shares. The firm is currently financed with 50 per cent debt and 50 per cent equity, but is planning to increase its leverage ratio to 80 per cent debt by borrowing and using the funds to repurchase shares. Management has decided not to participate in the repurchase, so their percentage ownership of the firm will increase.* [@book, p.609]
+
+*Explain how managers' investment incentives are likely to change after the recapitalization.* [@book, p.610]
+
+*Specifically, discuss their incentives to take:* [@book, p.610]
+
+* *negative-NPV projects that benefit them personally* [@book, p.610]
+
+* *risky projects* [@book, p.610]
+
+* *long-term projects that take more than 10 years to provide an adequate return to capital.* [@book, p.610]
+
+### Exercise 18.9
+
+*Suppose that you are designing the compensation contract for Fabio Capello, England's football coach. Two main alternatives are possible. In (a) you will design his bonus based on the total number of wins during the yeaer and the team's success during the World Cup qualification campaign, and will ignore any specific decisions made by Capello. In (b) you will consider the specific measures taken by Capello, and, perhaps with the help of independent outside experts, will base the compensation on the quality of those decisions but ignore the number of wins during the World Cup qualification campaign. Explain the advantages and disadvantages of the two compensation contracts.* [@book, p.610]
+
+# Hillier & Grinblatt: Chapter 19: The Information Conveyed by Financial Decisions
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 19.1
+
+*Describe how a firm's investment decisions might be made differently if its management is highly concerned about the firm's current share price.* [@book, p.641]
+
+### Exercise 19.2
+
+*Why might a firm choose to increase its debt level in response to favourable information about its future prospects?* [@book, p.641]
+
+### Exercise 19.3
+
+*Exhibit 19.5 shows that share prices of industrial firms react more negatively to equity issues than do utilities. Why do you think this is the case?* [@book, p.641]
+
+### Exercise 19.4
+
+*Classical finance theory suggest that firms take projects with positive NPVs regardless of the amount of cash the firm has available. However, empirical evidence suggests that the amount that firms invest is heavily dependent on their available cash flows. Why might this be?* [@book, p.641]
+
+### Exercise 19.5
+
+*Why might a manager close to retirement select a higher debt ratio than a manager far from retirement?* [@book, p.641]
+
+### Exercise 19.6
+
+*ABC Industries is considering an investment that requires the firm to issue new equity. The project will cost £100, but will add £120 to the firm's value. Although management believes the firm's value is £1,000 without the new project, outside investors value the firm at £600 without the project. If the firm currently has 100 shares outstanding, how many new shares must it issue to finance the project? Now assume that the true value of the firm will become known to the market shortly after the new equity has been issued. What will the firm's share price be at this time if it chooses to finance this new investment? What will the share price be if it chooses to pass up the investment?* [@book, p.641]
+
+### Exercise 19.7
+
+*As economies develop, disclosure laws generally get tougher and accounting information becomes more informative. Briefly describe how such changes in the quality of information affect the incentives of firms to be financed by either debt or equity.* [@book, p.641]
+
+### Exercise 19.8
+
+*If it was known that management was selling shares at the same time as it was increasing leverage, how would this affect the credibility of the signal? Why? What other actions or motivations by management could affect the credibility of such a signal?* [@book, p.641]
+
+### Exercise 19.9
+
+*The following table describes management's view of Abracadabra plc's future cash flows, along with the consensus view of outside analysts.* [@book, p.641]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*If the analysts can be convinced that management's beliefs are correct, the firm's value will increase by €200. Assume that there are no tax or other benefits from debt apart from the information the debt may convey. However, if the promised interest payments exceed the cash flows, the firm will lose €100, €150 or €200 because of financial distress, depending on the state of the economy.* [@book, p.641]
+
+*Assuming that management wants to maximize the intrinsic value of the firm, how much debt will the firm take on? Now consider the possibility that management's incentives place an equal weight on the firm's intrinsic value and its current value. How much debt must the firm take on to credibly convince the analysts that their cash flow estimates are wrong? (Hint: consider management's incentive to mislead analysts if the analysts' original projetions are correct.)* [@book, p.642]
+
+### Exercise 19.10
+
+*Analysts project that Infotech, an information services company, will have the following financial data for equally probable high and low states:* [@book, p.642]
+
+```{r fig.align="center", echo=FALSE, out.width = "150px",}
+knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+```
+
+*The firm is currently financed entirely with equity. The growth opportunity consists of a possitive-NPV project with a required initial investment of €200 and a value of €300. Management, knowing with 100 per cent certainty whether the firm is in the high or low state, has a choice of taking the project and issuing debt, taking the project and issuing equity, or not taking the project and doing nothing. Examine the pay-offs to current shareholders in the high and low states for each of these three decisions. What if management is unablee to issue debt? (Hint: which beliefs of investors are self-fulfilling?)* [@book, p.642]
+
+### Exercise 19.11
+
+*Mr Chan and Mr Smith are the CEOs of similar textile manufacturing firms. Chan is 64 years old and plans to retire next year. Smith is 52 years old and expects to remain with the firm for some time. Both firms have just announced 10 per cent increase in their earnings. Which firm should expect the greatest share price increase? Explain.* [@book, p.642]
+
+### Exercise 19.12
+
+*Gordon Wu (the largest shareholder of Hopewell) has just announced that he is planning to issue out-of-the-money covered warrants on 10 per cent of Hopewell's outstanding equity. Does this announcement make you more or less optimistic about Hopewell's future profits? Does this affect your assessment of Hopewell's volatility?* [@book, p.642]
+
+### Exercise 19.13
+
+*When firms increase leverage with exchange offers, what generally happens to their share prices? Why might this be?* [@book, p.642]
+
+### Exercise 19.14
+
+*Innovative Technologies produces high-tech equipment for the agriculture industry. This is a very risky firm, because the technology is not completely established, and demand for farm equipment is very cyclical and interest-rate sensitive. As a new start-up, Innovative Tech cannot obtain long-term straight debt. However, it can issue equity, issue convertible debt, or obtain funds from its bank. Devise a financing strategy for Innovative under the following assumptions.* [@book, p.642]
+
+a. *Management believes the firm is fairly priced.* [@book, p.642]
+
+b. *Management believes the firm is slightly undervalued.* [@book, p.642]
+
+c. *Management believes the firm is substantially undervalued.* [@book, p.642]
+
+### Exercise 19.15
+
+*Divided Industried recently announced a substantial increase in its dividend payout. Shareholders complained, because the increased dividend would place an added tax burden on them. Subsequent to the announcement, however, the share price of Dividend Industries increased 10 per cent. Does this share price increase indicate that the market viewed the dividend increase as a good decision?* [@book, p.642]
+
+### Exercise 19.16
+
+*Explain why the threat of hostile takeovers can make firms more short-term orientated.* [@book, p.642]
+
+### Exercise 19.17
+
+*Show in Example 19.7 that it never pays to issue debt in excess of €400 million.* [@book, p.642]
+
+# Hillier & Grinblatt: Chapter 20: Mergers and Aquisitions
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 20.1
+
+*London Mitchell plc is currently selling for £25 a share, and pays a dividend of £2 a share per year. Analysts expect the earnings and dividends to grow at 4 per cent per year into the foreseeable future. The company has 1 million shares outstanding. Mark Mitchell, the CEO, would like to take the firm private in a leveraged buyout. Following the buyout, the firm is expected to cut operating costs, which will result in a 10 per cent improvement in earnings. In addition, the firm will cut administrative fixed costs by £200,000 per year and save £500,000 per year on taxes for the next 10 years. Assuming that the risk-free interest rate is 5 per cent, and that London Mitchell following the LBO?* [@book, p.678]
+
+### Exercise 20.2
+
+*Refer to exercise 20.1. Explain why Mark Mitchell is likely to make these changes following n LBO, but would not make the changes in the absence of an LBO.* [@book, p.678]
+
+### Exercise 20.3
+
+*What type of firm would you prefer to work for: a diversified firm or a very focused firm? What does your answer to this question tell you about one of the advantages or disadvantages of diversification?* [@book, p.678]
+
+### Exercise 20.4
+
+*Diversified Industries plc has made a bid to purchase Cigmatics plc, offering to exchange two Diversified shares for one share of Cigmatics. When this bid is annouced, Diversified Idustries' shares drop 5 per cent. The CEO has asked you to interpretwhat this decline in share prices means. Does it imply that Cigmatics is a bad aquisition?* [@book, p.678]
+
+### Exercise 20.5
+
+*Leveraged buyouts are observed mainly in industries with relatively stable cash flows and products that are not highly specialized. Explain why?* [@book, p.678]
+
+### Exercise 20.6
+
+*When a farm with an extremely high price/earnings ratio purchases a firm with a very low price/earnings ratio in an exchange of equity, its earningsper share will increase. Do you think firms are more likely to ecquire other firms when it results in an increse in their earnings per share? Is it beneficial to shareholders to initiate a takeover for these reasons?* [@book, p.678]
+
+### Exercise 20.7
+
+*Tobacco companies have a large potential liability. In the future, they may be subject to extremely large product liability lawsuits. Discuss how this affects the incentives of tobacco companies to merge with food companies.* [@book, p.678]
+
+### Exercise 20.8
+
+*One of the stated benefits of a management buyout is the improvement in management incentives. In many cases, however, the top managers do not change after the buyout. Explain why.* [@book, p.678]
+
+# Hillier & Grinblatt: Chapter 21: Risk Management and Corporate Strategy
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 21.1
+
+*Small firms currently hedge less than large firms. Why is this? Do you expect smaller firms to start hedging more in the future? Explain.* [@book, p.712]
+
+### Exercise 21.2
+
+*Why is it harder to hedge currency risks in countries with volatile inflation rates?* [@book, p.712]
+
+### Exercise 21.3
+
+*Piste Resorts is a Swiss ski resort based in the Alps. Discuss the resort's exposure to exchange rate risk.* [@book, p.712]
+
+### Exercise 21.4
+
+*It is now much easier to hedge risks than it was in the past. How should this affect a firm's optimal capital structure? Why?* [@book, p.712]
+
+### Exercise 21.5
+
+*The XYZ Corporation manufactures in both Indonesia and Japan for export to Germany. Japan has a stable monetary policy, and as a result its inflation is easy to predict. Monetary policy in Indonesia is much less predictable. In wich of the two countries can XYZ more easily hedge against the risk that manufacturing costs, measured in euros, will become significantly more expensive? Why?* [@book, p.712]
+
+### Exercise 21.6
+
+*Purchasing power parity (PPP) implies that real exchange rates remain constant. If PPP holds, do firms need to hedge their long-term foreign exchange exposure? Explain.* [@book, p.712]
+
+### Exercise 21.7
+
+*Oil firms hedge only part of their exposure to oil price movements. Why might that be a good idea?* [@book, p.712]
+
+### Exercise 21.8
+
+*Harwood Outboard manufactures outboard motors for relatively inexpensive motor boats. The firm is optimistic about its long-term outlook, but its bond rating is only BB. Describe how you would manage Harwood's liability stream if you believed that within two years Harwood's credit rating would improve to A.* [@book, p.712]
+
+# Hillier & Grinblatt: Chapter 22: The Practice of Hedging
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 22.1
+
+*Consider, again, National Nickel from Example 21.3 in Chapter 21. In addition to the forward contracts described in Example 21.3, National Nickel can also buy (put) options that give it the right to sell nickel in one, two or three years at an exercise price of £20 per pound of nickel. The one-year option costs £2.00, the two-year option £3.00, and the three-year option £3.50 per pound of nickel. What should National Nickel do to eliminate the possibility of financial distress and still have money to fund new exploration in the event that nickel prices increase?* [@book, p.751]
+
+### Exercise 22.2
+
+*AB Cable, Wire & Fibre plans to open up a new factory three years from now, at which point it plans to purchase 1 million pounds of copper. Assume zero-coupon risk-free yields are going to remain at a constant 5 per cent (annually compounded rate) for all investment horizons, there is no basis risk in forwards or futures, storage of copper is costless, markets are frictionless, and forward spot parity holds. Copper has a 3 per cent per year (annual compounded rate) convenience yield.* [@book, p.752]
+
+a. *What should the relative magnitude of the futures and forward prices for copper be, assuming the constracts are of the same maturity? How should futures and forward prices change with contract maturity?* [@book, p.752]
+
+b. *Assume that one-year forwards are the only hedging instruments available. How many pounds of copper in forwards should be acquired today to maximally hedge the risk of the copper purchase three years from now? How does the hedge ratio change over time? Provide institution and describe the rollover strategy at the forward maturity date.* [@book, p.752]
+
+c. *Assume that three-month futures are the only hedging instruments available. How many pounds of copper in futures can be acquired today to maximally hedge the risk of the copper purchase three years from now? How does the hedge ratio change over time? Provide institution and describe the rollover strategy at the futures maturity date.* [@book, p.752]
+
+### Exercise 22.3
+
+*Assume a two-factor model for next year's profits of BP. The factors are one-year futures prices for oil and one-year futures prices for the £/US\$ exchange rate. The relevant factor equation is* [@book, p.752]
+$$Profit_{BP}=GBP \ 1 \ billion+GBP \ 10 \ million \ \tilde{F}_{OIL}+GBP \ 20 \ million \ \tilde{F}_{GBP/USD}+\tilde{\varepsilon}_{BP}$$
+*Assume that each one-year oil futures contract purchased has the factor equation* [@book, p.752]
+$$\tilde{C}_{OIL}=GBP \ 10,000 \ \tilde{F}_{OIL}$$
+*Each one-year futures contract on the £/US\$ exchange rate has the factor equation* [@book, p.752]
+$$\tilde{C}_{GBP/USD}=GBP \ 100,000 \ \tilde{F}_{GBP/USD}$$
+*If BP wants to reduce its exposure to the two risk factors by half, how can it accomplish this by buying or selling futures contracts?* [@book, p.752]
+
+### Exercise 22.4
+
+*Assume that Fiat is planning to ezquire an automobile company in Sweden. The deal will probably be consummated within a year, provided that approval is granted by the regulatory authorities in Italy and Sweden. The two automakers have agreed upon the terms of the deal. Fiat will pay Skr100 billion once deal is consummated. Discuss the advantages and disadvantage of hedging the currency risk in this deal with forwards, options and swaps.* [@book, p.752]
+
+### Exercise 22.5
+
+*Assume that Natabrine, a drug manufacturer, has discovered that it is cheaper to manufacture one of its drugs in France than anywhere else. All revenues from the drug will be in the United Kingdom. The company estimates that the costs of manufacturing the drug will be €100 million per year, and that the factory has a life of 10 years. At the end of the 10 years, a baloon payment on the mortgage from the factory is due. Net of proceeds from salvage value, the company will have to pay €1 billion at the end of 10 years. How can the currency risk of this deal be eliminated with a currency swap?* [@book, p.752]
+
+### Exercise 22.6
+
+*Assume that Dell Computer, a worldwide manufacturer and mail-order retailer of personal computers, has estimated the following regression associated with its operations in Europe:* [@book, p.752]
+$${Euro \ profits}_t = USD \ 10 \ mil.+ USD \ 8 \ mil. \times \left(USD/EUR \ 1-year \ forward \ exchange \ rate\right)_t+\tilde{\varepsilon}_t$$
+a. *How should Dell Computer minimize variance associated with these European operations, using only forward contracts on the \$/€ exchange rate? Is your answer affected by whether the European operations are fixed or scaleable in size?* [@book, p.752]
+
+b. *Assuming that European profits are normally distributed, what is Dell's profitat risk at the 5 per cent significance level, assuming that the percentage change in the \$/€ exchange rate is normally distributed and has a volatility of 10 per cent? Ignore risk for this calculation.* [@book, p.753]
+
+### Exercise 22.7
+
+### Exercise 22.8
+
+### Exercise 22.9
+
+### Exercise 22.10
+
+### Exercise 22.11
+
+### Exercise 22.12
+
+### Exercise 22.13
+
+# Hillier & Grinblatt: Chapter 23: Interest Rate Risk Management
+
+Text
+
+## Pre-lecture notes
+
+Text
+
+## Lecture notes
+
+Text
+
+## Exercises
+
+### Exercise 23.1
+
+### Exercise 23.2
+
+### Exercise 23.3
+
+### Exercise 23.4
+
+### Exercise 23.5
+
+### Exercise 23.6
+
+### Exercise 23.7
+
+### Exercise 23.8
+
+### Exercise 23.9
+
+### Exercise 23.10
+
+
+
+\label{last_page}
+\pagebreak
+\pagestyle{style1}
+\renewcommand{\headrulewidth}{0pt}
+
+
+# Bibliography
