@@ -32,10 +32,6 @@ knitr::opts_chunk$set(echo = TRUE, fig.show = "hold", cache = TRUE)
 
 # Preface
 
-$$2+2+2=6$$
-
-$$2+2=4$$
-
 Hello world [@book].
 
 # Hillier & Grinblatt: Chapter 1: Raising Capital: The Process and the Players
