@@ -210,13 +210,13 @@ Text
 
 ### Exercise 4.1
 
-*Prove that $E\left[\left(\tilde{r}- \bar{r}\right)^2\right] = E\left(\tilde{r}^2\right) - \tilde{r}^2$ using the following steps:* [@book, p.116]
+*Prove that $E\left[\left(\overset{\sim}{r}- \bar{r}\right)^2\right] = E\left(\overset{\sim}{r}^2\right) - \overset{\sim}{r}^2$ using the following steps:* [@book, p.116]
 
-a. *Show that $E\left[\left(\tilde{r} -\bar{r}\right)^2\right] = E\left(\tilde{r}^2-2\bar{r}\tilde{r}+\bar{r}\right)^2$.* [@book, p.116]
+a. *Show that $E\left[\left(\overset{\sim}{r} -\bar{r}\right)^2\right] = E\left(\overset{\sim}{r}^2-2\bar{r}\overset{\sim}{r}+\bar{r}\right)^2$.* [@book, p.116]
 
-b. *Show that the expression in part $a$ is equal to $E\left(\tilde{r}^2\right)-2E\left(\bar{r}\tilde{r}\right)+\bar{r}^2$.* [@book, p.116]
+b. *Show that the expression in part $a$ is equal to $E\left(\overset{\sim}{r}^2\right)-2E\left(\bar{r}\overset{\sim}{r}\right)+\bar{r}^2$.* [@book, p.116]
 
-c. *Show that the expression in part $b$ is equal to $E\left(\tilde{r}^2\right)-2\bar{r}^2+\bar{r}^2$.* [@book, p.116]
+c. *Show that the expression in part $b$ is equal to $E\left(\overset{\sim}{r}^2\right)-2\bar{r}^2+\bar{r}^2$.* [@book, p.116]
 
 *Then add.* [@book, p.116]
 
@@ -225,7 +225,7 @@ c. *Show that the expression in part $b$ is equal to $E\left(\tilde{r}^2\right)-
 *Derive a formula for the weights of the minimum variance portfolio of two assets using the following steps:* [@book, p.117]
 
 a. *Compute the variance of a portfolio with weights $x$ and $1 - x$ on assets 1 and 2. respectively. Show that you get* [@book, p.117]
-$$var\left(\tilde{R}_\rho\right) = x^2\sigma^2_1 + \left(1-x\right)^2\sigma^2_2+2x\left(1-x\right)\rho\sigma_1\sigma_2$$
+$$var\left(\overset{\sim}{R}_\rho\right) = x^2\sigma^2_1 + \left(1-x\right)^2\sigma^2_2+2x\left(1-x\right)\rho\sigma_1\sigma_2$$
 b. *Take the derivative with respect to $x$ of the expression in part a. Show that the value of $x$ that makes the derivate 0 is* [@book, p.117]
 $$x=\frac{\sigma^2_2-\rho\sigma_1\sigma_2}{\sigma_1^2+\sigma_2^2-2\rho\sigma_1\sigma_2}$$
 
@@ -328,12 +328,12 @@ knitr::include_graphics("figures/matrix.jpg")
 *ABSO's head of risk management now warns of focusing on expected returns to the exclusion of risk measures such as variance. ABCO decides to measure return variance.* [@book, p.118]
 
 a. *For each ABCO subsidiary, compute the return variance with the standard formula* [@book, p.118]
-$$var\left(\tilde{r}\right)=E\left[\left(\tilde{r}-\bar{r}\right)^2\right]$$
+$$var\left(\overset{\sim}{r}\right)=E\left[\left(\overset{\sim}{r}-\bar{r}\right)^2\right]$$
     i. *If the three economic scenarios are equally likely.* [@book, p.118]
     
     ii. *If the good economic scenario is twice as likely as the other two.* [@book, p.118]
     
-b. *Show that the alternative variance formula, $E\left(\tilde{r}^2\right)-E\left[\left(\tilde{r}-\bar{r}\right)^2\right]$, from exercise 4.1, yields the same results.* [@book, p.118]
+b. *Show that the alternative variance formula, $E\left(\overset{\sim}{r}^2\right)-E\left[\left(\overset{\sim}{r}-\bar{r}\right)^2\right]$, from exercise 4.1, yields the same results.* [@book, p.118]
 
 ### Exercise 4.13
 
@@ -345,7 +345,7 @@ b. *Show that the alternative variance formula, $E\left(\tilde{r}^2\right)-E\lef
 knitr::include_graphics("figures/matrix.jpg")
 ```
 
-*Assuming that the three economic scenarios are equally likely, compute the covariances and the correlation matrix for the four ABCO subsidiaries. Show that an alternative covariance formula, $cov\left(\tilde{r}_1,\tilde{r}_2\right) = E\left(\tilde{r}_1,\tilde{r}_2\right)-E\left(\tilde{r}_1\right)E\left(\tilde{r}_2\right)$, generates the same covariances.* [@book, p.118]
+*Assuming that the three economic scenarios are equally likely, compute the covariances and the correlation matrix for the four ABCO subsidiaries. Show that an alternative covariance formula, $cov\left(\overset{\sim}{r}_1,\overset{\sim}{r}_2\right) = E\left(\overset{\sim}{r}_1,\overset{\sim}{r}_2\right)-E\left(\overset{\sim}{r}_1\right)E\left(\overset{\sim}{r}_2\right)$, generates the same covariances.* [@book, p.118]
 
 ### Exercise 4.14
 
@@ -690,10 +690,10 @@ Text
 ### Exercise 6.3
 
 *Consider the following two-factor model for the returns of three securities. Assume that the factors and epsilons have means of zero. Also, assume the factors have variances of 0.01 and are uncorrelated with each other.* [@book, p.198]
-$$\tilde{r}_A=0.13+6\tilde{F}_1+4\tilde{F}_2+\tilde{\varepsilon}_A$$
-$$\tilde{r}_B=0.15+2\tilde{F}_1+\tilde{F}_2+\tilde{\varepsilon}_B$$
-$$\tilde{r}_C=0.07+5\tilde{F}_1-1\tilde{F}_2+\tilde{\varepsilon}_C$$
-*If $var\left(\tilde{\varepsilon}_A\right)=0.01$ $var\left(\tilde{\varepsilon}_B\right)=0.4$ $\left(\tilde{\epsilon}_C\right)=0.02$, what are the variances of the returns of the three securities, as well as the covariances and correlations between them?* [@book, p.198]
+$$\overset{\sim}{r}_A=0.13+6\overset{\sim}{F}_1+4\overset{\sim}{F}_2+\overset{\sim}{\varepsilon}_A$$
+$$\overset{\sim}{r}_B=0.15+2\overset{\sim}{F}_1+\overset{\sim}{F}_2+\overset{\sim}{\varepsilon}_B$$
+$$\overset{\sim}{r}_C=0.07+5\overset{\sim}{F}_1-1\overset{\sim}{F}_2+\overset{\sim}{\varepsilon}_C$$
+*If $var\left(\overset{\sim}{\varepsilon}_A\right)=0.01$ $var\left(\overset{\sim}{\varepsilon}_B\right)=0.4$ $\left(\overset{\sim}{\epsilon}_C\right)=0.02$, what are the variances of the returns of the three securities, as well as the covariances and correlations between them?* [@book, p.198]
 
 ### Exercise 6.4
 
@@ -726,8 +726,8 @@ $$\tilde{r}_C=0.07+5\tilde{F}_1-1\tilde{F}_2+\tilde{\varepsilon}_C$$
 ### Exercise 6.7
 
 *Two equities, Uni and Due, have returns that follow the one-factor model:* [@book, p.198]
-$$\tilde{r}_{uni}=0.11+2\tilde{F}+\tilde{\varepsilon}_{uni}$$
-$$\tilde{r}_{due}=0.17+5\tilde{F}+\tilde{\varepsilon}_{due}$$
+$$\overset{\sim}{r}_{uni}=0.11+2\overset{\sim}{F}+\overset{\sim}{\varepsilon}_{uni}$$
+$$\overset{\sim}{r}_{due}=0.17+5\overset{\sim}{F}+\overset{\sim}{\varepsilon}_{due}$$
 *How much should be invested in each of the two equities to design a portfolio that has a factor beta of 3? What is the expected return of this portfolio, assuming that the factors and epsilons have means of zero?* [@book, p.198]
 
 ### Exercise 6.8
@@ -745,15 +745,15 @@ $$\tilde{r}_{due}=0.17+5\tilde{F}+\tilde{\varepsilon}_{due}$$
 ### Exercise 6.11
 
 *Find the weights of the two pure factor portfolios constructed from the following three securities:* [@book, p.199]
-$$r_1=0.06+2\tilde{F}_1+2\tilde{F}_2$$
-$$r_2=0.05+3\tilde{F}_1+1\tilde{F}_2$$
-$$r_3=0.04+3\tilde{F}_1+0\tilde{F}_2$$
+$$r_1=0.06+2\overset{\sim}{F}_1+2\overset{\sim}{F}_2$$
+$$r_2=0.05+3\overset{\sim}{F}_1+1\overset{\sim}{F}_2$$
+$$r_3=0.04+3\overset{\sim}{F}_1+0\overset{\sim}{F}_2$$
 *Then write out the factor equations for the two pure factor portfolios, and determine their risk premiums. Assume a risk-free rate htat is implied by the factor equations and no arbitrage.* [@book, p.199]
 
 ### Exercise 6.12
 
 *Assume the factor model in exercise 6.11 applies again. If there exists an additional asset with the following factor equation:* [@book, p.199]
-$$r_4=0.08+1\tilde{F}_1+0\tilde{F}_2$$
+$$r_4=0.08+1\overset{\sim}{F}_1+0\overset{\sim}{F}_2$$
 *does an arbitrage opportunity exists? If so, describe how you would take advantage of it.* [@book, p.199]
 
 ### Exercise 6.13
@@ -2418,11 +2418,11 @@ c. *Assume that three-month futures are the only hedging instruments available. 
 ### Exercise 22.3
 
 *Assume a two-factor model for next year's profits of BP. The factors are one-year futures prices for oil and one-year futures prices for the £/US\$ exchange rate. The relevant factor equation is* [@book, p.752]
-$$Profit_{BP}=GBP \ 1 \ billion+GBP \ 10 \ million \ \tilde{F}_{OIL}+GBP \ 20 \ million \ \tilde{F}_{GBP/USD}+\tilde{\varepsilon}_{BP}$$
+$$Profit_{BP}=GBP \ 1 \ billion+GBP \ 10 \ million \ \overset{\sim}{F}_{OIL}+GBP \ 20 \ million \ \overset{\sim}{F}_{GBP/USD}+\overset{\sim}{\varepsilon}_{BP}$$
 *Assume that each one-year oil futures contract purchased has the factor equation* [@book, p.752]
-$$\tilde{C}_{OIL}=GBP \ 10,000 \ \tilde{F}_{OIL}$$
+$$\overset{\sim}{C}_{OIL}=GBP \ 10,000 \ \overset{\sim}{F}_{OIL}$$
 *Each one-year futures contract on the £/US\$ exchange rate has the factor equation* [@book, p.752]
-$$\tilde{C}_{GBP/USD}=GBP \ 100,000 \ \tilde{F}_{GBP/USD}$$
+$$\overset{\sim}{C}_{GBP/USD}=GBP \ 100,000 \ \overset{\sim}{F}_{GBP/USD}$$
 *If BP wants to reduce its exposure to the two risk factors by half, how can it accomplish this by buying or selling futures contracts?* [@book, p.752]
 
 ### Exercise 22.4
@@ -2436,7 +2436,7 @@ $$\tilde{C}_{GBP/USD}=GBP \ 100,000 \ \tilde{F}_{GBP/USD}$$
 ### Exercise 22.6
 
 *Assume that Dell Computer, a worldwide manufacturer and mail-order retailer of personal computers, has estimated the following regression associated with its operations in Europe:* [@book, p.752]
-$${Euro \ profits}_t = USD \ 10 \ mil.+ USD \ 8 \ mil. \times \left(USD/EUR \ 1-year \ forward \ exchange \ rate\right)_t+\tilde{\varepsilon}_t$$
+$${Euro \ profits}_t = USD \ 10 \ mil.+ USD \ 8 \ mil. \times \left(USD/EUR \ 1-year \ forward \ exchange \ rate\right)_t+\overset{\sim}{\varepsilon}_t$$
 a. *How should Dell Computer minimize variance associated with these European operations, using only forward contracts on the \$/€ exchange rate? Is your answer affected by whether the European operations are fixed or scaleable in size?* [@book, p.752]
 
 b. *Assuming that European profits are normally distributed, what is Dell's profitat risk at the 5 per cent significance level, assuming that the percentage change in the \$/€ exchange rate is normally distributed and has a volatility of 10 per cent? Ignore risk for this calculation.* [@book, p.753]
