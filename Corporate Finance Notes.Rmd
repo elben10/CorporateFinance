@@ -32,8 +32,6 @@ knitr::opts_chunk$set(echo = TRUE, fig.show = "hold", cache = TRUE)
 
 # Preface
 
-$$2+2=4$$
-
 Hello world [@book].
 
 # Hillier & Grinblatt: Chapter 1: Raising Capital: The Process and the Players
@@ -117,7 +115,7 @@ Text
 *The diagram below shows default rates of rated bonds.* [@book, p.56]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 *What conclusions can you draw from the diagram?* [@book, p.56]
@@ -210,13 +208,13 @@ Text
 
 ### Exercise 4.1
 
-*Prove that $E\left[\left(\tilde{r}- \bar{r}\right)^2\right] = E\left(\tilde{r}^2\right) - \tilde{r}^2$ using the following steps:* [@book, p.116]
+*Prove that $E\left[\left(\overset{\sim}{r}- \bar{r}\right)^2\right] = E\left(\overset{\sim}{r}^2\right) - \overset{\sim}{r}^2$ using the following steps:* [@book, p.116]
 
-a. *Show that $E\left[\left(\tilde{r} -\bar{r}\right)^2\right] = E\left(\tilde{r}^2-2\bar{r}\tilde{r}+\bar{r}\right)^2$.* [@book, p.116]
+a. *Show that $E\left[\left(\overset{\sim}{r} -\bar{r}\right)^2\right] = E\left(\overset{\sim}{r}^2-2\bar{r}\overset{\sim}{r}+\bar{r}\right)^2$.* [@book, p.116]
 
-b. *Show that the expression in part $a$ is equal to $E\left(\tilde{r}^2\right)-2E\left(\bar{r}\tilde{r}\right)+\bar{r}^2$.* [@book, p.116]
+b. *Show that the expression in part $a$ is equal to $E\left(\overset{\sim}{r}^2\right)-2E\left(\bar{r}\overset{\sim}{r}\right)+\bar{r}^2$.* [@book, p.116]
 
-c. *Show that the expression in part $b$ is equal to $E\left(\tilde{r}^2\right)-2\bar{r}^2+\bar{r}^2$.* [@book, p.116]
+c. *Show that the expression in part $b$ is equal to $E\left(\overset{\sim}{r}^2\right)-2\bar{r}^2+\bar{r}^2$.* [@book, p.116]
 
 *Then add.* [@book, p.116]
 
@@ -225,7 +223,7 @@ c. *Show that the expression in part $b$ is equal to $E\left(\tilde{r}^2\right)-
 *Derive a formula for the weights of the minimum variance portfolio of two assets using the following steps:* [@book, p.117]
 
 a. *Compute the variance of a portfolio with weights $x$ and $1 - x$ on assets 1 and 2. respectively. Show that you get* [@book, p.117]
-$$var\left(\tilde{R}_\rho\right) = x^2\sigma^2_1 + \left(1-x\right)^2\sigma^2_2+2x\left(1-x\right)\rho\sigma_1\sigma_2$$
+$$var\left(\overset{\sim}{R}_\rho\right) = x^2\sigma^2_1 + \left(1-x\right)^2\sigma^2_2+2x\left(1-x\right)\rho\sigma_1\sigma_2$$
 b. *Take the derivative with respect to $x$ of the expression in part a. Show that the value of $x$ that makes the derivate 0 is* [@book, p.117]
 $$x=\frac{\sigma^2_2-\rho\sigma_1\sigma_2}{\sigma_1^2+\sigma_2^2-2\rho\sigma_1\sigma_2}$$
 
@@ -276,7 +274,7 @@ c. *What is the average return per year for the two-year period? Use the arithme
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assuming (1) that the three economic outcomes have an equal likelihoodof occuring, and (2) that the good economy is twice as likely to take place as the other two:* [@book, p.118]
@@ -292,7 +290,7 @@ b. *Calculate implicit portfolio weights for each subsidiary, and an expected re
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assume in exercise 4.9 that ABCO also has a pension fund, which has a net asset value of €5 billion, implying that ABCO's equity is really worth €9 billion instead of €4billion. The €5 billion in pension funds is invested in short-term government risk-free securities yielding 5 per cent per year. Recalculate parts a and b of exercise 4.9 to reflect this.* [@book, p.118]
@@ -304,7 +302,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assume in exercise 4.9 that ABCO decides to borrow €8 billion at 5 per centinterest to triple its current investment in each of its four lines of business. Assume this new investment has the same per monetary return outcomes as the old investment.* [@book, p.118]
@@ -322,18 +320,18 @@ c. *To whom does this return belong? Why?* [@book, p.118]
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *ABSO's head of risk management now warns of focusing on expected returns to the exclusion of risk measures such as variance. ABCO decides to measure return variance.* [@book, p.118]
 
 a. *For each ABCO subsidiary, compute the return variance with the standard formula* [@book, p.118]
-$$var\left(\tilde{r}\right)=E\left[\left(\tilde{r}-\bar{r}\right)^2\right]$$
+$$var\left(\overset{\sim}{r}\right)=E\left[\left(\overset{\sim}{r}-\bar{r}\right)^2\right]$$
     i. *If the three economic scenarios are equally likely.* [@book, p.118]
     
     ii. *If the good economic scenario is twice as likely as the other two.* [@book, p.118]
     
-b. *Show that the alternative variance formula, $E\left(\tilde{r}^2\right)-E\left[\left(\tilde{r}-\bar{r}\right)^2\right]$, from exercise 4.1, yields the same results.* [@book, p.118]
+b. *Show that the alternative variance formula, $E\left(\overset{\sim}{r}^2\right)-E\left[\left(\overset{\sim}{r}-\bar{r}\right)^2\right]$, from exercise 4.1, yields the same results.* [@book, p.118]
 
 ### Exercise 4.13
 
@@ -342,10 +340,10 @@ b. *Show that the alternative variance formula, $E\left(\tilde{r}^2\right)-E\lef
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
-*Assuming that the three economic scenarios are equally likely, compute the covariances and the correlation matrix for the four ABCO subsidiaries. Show that an alternative covariance formula, $cov\left(\tilde{r}_1,\tilde{r}_2\right) = E\left(\tilde{r}_1,\tilde{r}_2\right)-E\left(\tilde{r}_1\right)E\left(\tilde{r}_2\right)$, generates the same covariances.* [@book, p.118]
+*Assuming that the three economic scenarios are equally likely, compute the covariances and the correlation matrix for the four ABCO subsidiaries. Show that an alternative covariance formula, $cov\left(\overset{\sim}{r}_1,\overset{\sim}{r}_2\right) = E\left(\overset{\sim}{r}_1,\overset{\sim}{r}_2\right)-E\left(\overset{\sim}{r}_1\right)E\left(\overset{\sim}{r}_2\right)$, generates the same covariances.* [@book, p.118]
 
 ### Exercise 4.14
 
@@ -354,7 +352,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *ABCO is considering selling off two of its four subsidiaries and reinvesting the proceedsin the remaining two subsidiaries, keeping the same relative investment proportions in thesurviving two. Assuming that the three economic scenarios are equally likely, compute the return variance of the €4 billion in ABCO equity for each of the six possible pairs of subsidiaries remaining.* [@book, p.118]
@@ -366,7 +364,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *For each of the six cases in exercise 4.14, ABCO wants to consider what would happento the return variance of ABCO's €4 billion in equity if it revised the relative investment proportions in the two remaining subsidiaries. In particular, for each of the six possible sell-off scenarios, what proportion of the €4 billion should be invested in the two remaining subsidiaries if ABCO were to minimize its variance? Assume that short sales are not permitted.* [@book, p.118]
@@ -378,7 +376,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Draw six mean-standard deviation diagrams, one for each of the six remaining pairs of subsidiaries in exercise 4.15. Mark the individual subsidiaries, the minimum variance combination assuming no short sales, and ABCO's return variance for 50/50 per cent combination.* [@book, p.118]
@@ -390,7 +388,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *ABCO is a conglomerate that has €4 billion in ordinary equity. Its capital is invested in four subsidiaries: entertainment (ENT), consumer products (CON), pharmeceuticals (PHA) and insurance (INS). The four subsidiaries are expected to perform differently, depending on the economic environment.* [@book, p.117]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *How does your answer to exercise 4.16 change if short sales are permitted.* [@book, p.118]
@@ -408,7 +406,7 @@ b. *Repeat the problem with -50 per cent as the weight on the risk-free asset.* 
 *From Example 4.15, the covariances between the returns of AIB, CRH and Ryanair are given in the matrix below:* [@book, p.119]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Compute the minimum variance portfolio of these three equities.* [@book, p.119]
@@ -426,7 +424,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *A portfolio consists of the following three assets, whose performance depends on the economic environment:* [@book, p.119]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assuming that the good economic environment is twice as likely as the bad one, compute the expected return and variance of the portfolio.* [@book, p.119]
@@ -438,7 +436,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *You wish to diversify your investment portfolio, and have decided to invest in international equities. The table below provides monthly index levels during 2009 and 2010 for four countries: Hang Seng Index (Hong Kong), OMX Copenhagen 20 (Denmark), DAX (Germany) and the FTSE 100 (UK).* [@book, p.119]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 a. *Calculate the monthly returns to each index.* [@book, p.120]
@@ -486,7 +484,7 @@ e. *What condition must hold at the tangency portfolio?* [@book, p.159]
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Compute the tangency portfolio weights, assuming that a risk-free asset yields 5 per cent.* [@book, p.160]
@@ -496,7 +494,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *How does your answer to exercise 5.2 change if risk-free rate is 3 per cent? 7 per cent?* [@book, p.160]
@@ -506,7 +504,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Draw a mean-standard deviation diagram and plot Deutsche Lufthansa, Volkswagen and BMW on this diagram, as well as the three tagency portfolios found in exercises 5.2 and 5.3.* [@book, p.160]
@@ -516,7 +514,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Show that an equally weighted portfolio of Deutsche Lufthansa, Volkswagen and BMW can be improved upon with marginal variance-marginal mean analysis.* [@book, p.160]
@@ -526,7 +524,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Repeat exercises 5.2 and 5.3, but use a spreadsheet to solve for the tangency portfolio weights of Deutsche Lufthansa, Volkswagen and BMW in the three cases. The solution of the system of equations requires you to invert the matrix of covariances above, then post-multiply the inverted covariance matrix by the column of risk premiums. The solution should be a column of cells, which needs to be rescaled so that the weights sum to 1.* [@book, p.160]
@@ -536,7 +534,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 a. *Compute the betas of Deutsche Lufthansa, Volkswagen and BMW with repeat to the tangency portfolio found in exercise 5.2.* [@book, p.160]
@@ -548,7 +546,7 @@ b. *Then compute the beta of an equally weighted portfolio of the three assets.*
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Using the fact that the hyperbolic boundary of the feasible set of the three assets is generated by any two portfolios:* [@book, p.160]
@@ -562,7 +560,7 @@ b. *What is the covariance with the tangency portfolio of all inefficient portfo
 *Exercises 5.2 - 5.9 make use of the following information about the mean returns and covariances for three German companies: Deutsche Lufthansa, Volkswagen and BMW. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical.* [@book, p.159]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *What is the covariance of the return of the tangency portfolio from exercise 5.2. with the return of all portfolios that have the same expected return as Deutsche Lufthansa?* [@book, p.160]
@@ -572,7 +570,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Using a spreadsheet, compute the minimum variance and tangency portfoliosfor the universe of three Norwegian equities (TGS Nopec Geophysical Co SA, Clavis Pharma ASA, and Sevan Marine ASA), described below. Assume the risk-free return is 5.63 per cent. The numbers are based on annualized monthly returns data from January 2008 to December 2010 except the expected return, which is hypothetical. See exercise 5.6 for detailed instructions.* [@book, p.160]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 ### Exercise 5.11
@@ -580,7 +578,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Kato plc has the following simplified balance sheet (based on market values).* [@book, p.160]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 a. *The debt of Kato, being risk-free, earns the risk-free return of 6 per cent per year. The equity of Kato has a mean return of 12 per cent per year, a standard deviation of 30 per cent per year, and a beta of 0.9. Compute the mean return, beta and standard deviation of the assets of Kato. Hint: view the assets as a portfolio of the debt and equity.* [@book, p.161]
@@ -594,7 +592,7 @@ c. *How does your answer to part a change if the debt is risky, has returns with
 *The following are adjusted closing prices for Sage Group plc and the corresponding closing index values of the FTSE 100.* [@book, p.161]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Using a spreadsheet. compute Sage Group's beta. Then apply the Bloomberg adjustment to derive the adjusted beta.* [@book, p.161]
@@ -620,7 +618,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Estimate the Bloomberg-adjusted betas for the following companies.* [@book, p.162]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 ### Exercise 5.18
@@ -690,10 +688,10 @@ Text
 ### Exercise 6.3
 
 *Consider the following two-factor model for the returns of three securities. Assume that the factors and epsilons have means of zero. Also, assume the factors have variances of 0.01 and are uncorrelated with each other.* [@book, p.198]
-$$\tilde{r}_A=0.13+6\tilde{F}_1+4\tilde{F}_2+\tilde{\varepsilon}_A$$
-$$\tilde{r}_B=0.15+2\tilde{F}_1+\tilde{F}_2+\tilde{\varepsilon}_B$$
-$$\tilde{r}_C=0.07+5\tilde{F}_1-1\tilde{F}_2+\tilde{\varepsilon}_C$$
-*If $var\left(\tilde{\varepsilon}_A\right)=0.01$ $var\left(\tilde{\varepsilon}_B\right)=0.4$ $\left(\tilde{\epsilon}_C\right)=0.02$, what are the variances of the returns of the three securities, as well as the covariances and correlations between them?* [@book, p.198]
+$$\overset{\sim}{r}_A=0.13+6\overset{\sim}{F}_1+4\overset{\sim}{F}_2+\overset{\sim}{\varepsilon}_A$$
+$$\overset{\sim}{r}_B=0.15+2\overset{\sim}{F}_1+\overset{\sim}{F}_2+\overset{\sim}{\varepsilon}_B$$
+$$\overset{\sim}{r}_C=0.07+5\overset{\sim}{F}_1-1\overset{\sim}{F}_2+\overset{\sim}{\varepsilon}_C$$
+*If $var\left(\overset{\sim}{\varepsilon}_A\right)=0.01$ $var\left(\overset{\sim}{\varepsilon}_B\right)=0.4$ $\left(\overset{\sim}{\epsilon}_C\right)=0.02$, what are the variances of the returns of the three securities, as well as the covariances and correlations between them?* [@book, p.198]
 
 ### Exercise 6.4
 
@@ -726,8 +724,8 @@ $$\tilde{r}_C=0.07+5\tilde{F}_1-1\tilde{F}_2+\tilde{\varepsilon}_C$$
 ### Exercise 6.7
 
 *Two equities, Uni and Due, have returns that follow the one-factor model:* [@book, p.198]
-$$\tilde{r}_{uni}=0.11+2\tilde{F}+\tilde{\varepsilon}_{uni}$$
-$$\tilde{r}_{due}=0.17+5\tilde{F}+\tilde{\varepsilon}_{due}$$
+$$\overset{\sim}{r}_{uni}=0.11+2\overset{\sim}{F}+\overset{\sim}{\varepsilon}_{uni}$$
+$$\overset{\sim}{r}_{due}=0.17+5\overset{\sim}{F}+\overset{\sim}{\varepsilon}_{due}$$
 *How much should be invested in each of the two equities to design a portfolio that has a factor beta of 3? What is the expected return of this portfolio, assuming that the factors and epsilons have means of zero?* [@book, p.198]
 
 ### Exercise 6.8
@@ -745,15 +743,15 @@ $$\tilde{r}_{due}=0.17+5\tilde{F}+\tilde{\varepsilon}_{due}$$
 ### Exercise 6.11
 
 *Find the weights of the two pure factor portfolios constructed from the following three securities:* [@book, p.199]
-$$r_1=0.06+2\tilde{F}_1+2\tilde{F}_2$$
-$$r_2=0.05+3\tilde{F}_1+1\tilde{F}_2$$
-$$r_3=0.04+3\tilde{F}_1+0\tilde{F}_2$$
+$$r_1=0.06+2\overset{\sim}{F}_1+2\overset{\sim}{F}_2$$
+$$r_2=0.05+3\overset{\sim}{F}_1+1\overset{\sim}{F}_2$$
+$$r_3=0.04+3\overset{\sim}{F}_1+0\overset{\sim}{F}_2$$
 *Then write out the factor equations for the two pure factor portfolios, and determine their risk premiums. Assume a risk-free rate htat is implied by the factor equations and no arbitrage.* [@book, p.199]
 
 ### Exercise 6.12
 
 *Assume the factor model in exercise 6.11 applies again. If there exists an additional asset with the following factor equation:* [@book, p.199]
-$$r_4=0.08+1\tilde{F}_1+0\tilde{F}_2$$
+$$r_4=0.08+1\overset{\sim}{F}_1+0\overset{\sim}{F}_2$$
 *does an arbitrage opportunity exists? If so, describe how you would take advantage of it.* [@book, p.199]
 
 ### Exercise 6.13
@@ -780,13 +778,13 @@ Text
 *The underlying asset, which pays no cash flows unless it is sold, has a market value that is modelled in the following tree diagram:* [@book, p.233]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 *The cash flows of the derivative that correspond to the above tree diagram are:* [@book, p.233]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 *Find the present value of the derivate.* [@book, p.233]
@@ -798,7 +796,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Date 0* [@book, p.233]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 *The equity does not pay a dividend between dates 0 and 1.* [@book, p.234]
@@ -818,7 +816,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Paths for (a) the Value of the Firm's Assets Per Bond (Above the Node); and (b) Cash Pay-offs of a Risky Bond (Below the Node); in a Two-Binominal Tree Diagram.* [@book, p.234]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 ### Exercise 7.4
@@ -834,7 +832,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Three-Period Binominal Tree Diagram: (a) Underlying Security's Price (Above Node); (b) Derivative's Price (Below Node)* [@book, p.235]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 ### Exercise 7.6
@@ -956,7 +954,7 @@ Text
 *The following tree diagram outlines the share price of a company over the next two periods:* [@book, p.272]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 *The risk-free rate is 12 per cent from date 0 to date 1, and 15 per cent from date 1 to date 2. A European call on this equity (1) expires in period 2, and (2) has a strike price of £8.* [@book, p.272]
@@ -1211,7 +1209,7 @@ Text
 *Your firm has recently reached an expansion phase and is sseking possible new geographic regions to market the newly patented chemical compound Glupto. The five regional projections are as follows:* [@book, p.338]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 a. *Which countries would be profitable to the firm? Which of the five is the most profitable?* [@book, p.338]
@@ -1241,7 +1239,7 @@ c. *Assume now that you can expand without regional saturation. With the budget 
 *Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Respond to parts a to d.* [@book, p.339]
@@ -1261,7 +1259,7 @@ d. *Why might a flat rate structure be unrealistic?* [@book, p.339]
 *Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Describe the equivalent tracking portfolio for Project X, giving long and short positions and amounts, under a flat term structure of 8 per cent, compounded annually. Conceptually, why are we interested in tracking Project X's cash flows with a portfolio of marketable securities?* [@book, p.339]
@@ -1273,7 +1271,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Let $B_t$ = price per €100 of face value of a zaro-coupon bond maturing at year $t$. Then, if $B_1=€94.00$, $B_2=€88.20$, $B_3=€81.50$, $B_4=€76.00$ adn $B_5=€73.00$, implying that the term structure of interest rates is no longer flat:* [@book, p.339]
@@ -1293,7 +1291,7 @@ d. *How are your asnwers to part b and c related?* [@book, p.339]
 *Your company is investigating a possible new project, Project X, which would affect corporate cash flow as follows:* [@book, p.338]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Consider the cash flows associated with undertaking Project X.* [@book, p.339]
@@ -1313,7 +1311,7 @@ e. *If the sign of each cash flow were reversed, how would the hurdle rate and p
 *As a regional managing director of Finco, an Italy-based investment company, your mandate is to scour Europe in search of promising investment opportunities, and to recommend one project to corporate headquarters in Milan. Your analysts have screened thousands of propective ventures, and have passed on the following four projects for your final review:* [@book, p.339]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 a. *Calculate the NPV, hurdle rate and IRR for each project. Which project appears most promising?* [@book, p.340]
@@ -1327,7 +1325,7 @@ c. *How would your answer change if all projects could be scaled and you have a 
 *ABC Metalworks wants to determine which model sheetcutter to purchase. Three choices are available: machine 1 costs the least, but must be replaced the most frequently; machine 2 has average cost and average lifespan; machine 3 costs the most, but needs only infrequent replacement. Assume that all three machines meet production quality and volume standards; that annual maintenance is inversely proportional to the purchase price (that is, the cheaper machine requires higher maintenance); and that machine replacement, being instantaneous, will not disrupt production.* [@book, p.340]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 a. *Under a flat discount rate assumption of 5 per cent per year, calculate the NPV for each machine.* [@book, p.340]
@@ -1341,7 +1339,7 @@ c. *How does your answer to part b change under a flat 6 per cent discount rate 
 *Investco, a South African research company, must decide on the level of computer technology it will buy for its analysis department. Package A, a mid-level technology, would cost R15 million for firmwide installation, whereas package B, a high-level technology, would cost R21 million Equipped with level A technology, the firm could generate a cash flow of R9 million for two years before the technology would require replacement; with level B technology, the firm could generate a cash flow of R10.2 million for three years, after which the technology would require replacement. Investco is interested in a six-year planning horizon. Assume the following about discount rates:* [@book, p.340]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 a. *What is the nearest terminal date that is concurrent for both packages? What are the associated cash flows for each package or sequence of packages?* [@book, p.340]
@@ -1397,7 +1395,7 @@ Text
 *Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assume alse that the CAPM holds.* [@book, p.389]
@@ -1411,7 +1409,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assume alse that the CAPM holds.* [@book, p.389]
@@ -1425,7 +1423,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assume alse that the CAPM holds.* [@book, p.389]
@@ -1439,7 +1437,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assume alse that the CAPM holds.* [@book, p.389]
@@ -1453,7 +1451,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Assume that BA Cityflyer has the following joint distribution with the market return:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Assume alse that the CAPM holds.* [@book, p.389]
@@ -1483,7 +1481,7 @@ b. *Compute the leverage ratio of this firm in 2013.* [@book, p.389]
 *In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Analyse the Hughes acquisition (which took place) by first computing the betas of the comparison firms, Lockheed and Northrop, as if they were all equity financed. Assume no taxes.* [@book, p.390]
@@ -1494,7 +1492,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Compute the beta of the assets of the Hughes acquisition, assuming no taxes, by taking the average of the asset betas of Lockheed and Northrop.* [@book, p.390]
@@ -1506,7 +1504,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Compute the cost of capital for the Hughes acquisition, assuming no taxes.* [@book, p.390]
@@ -1518,7 +1516,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Compute the value of Hughes with the cost of capital estimated in exercise 11.12.* [@book, p.390]
@@ -1530,7 +1528,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *In 1989, General Motors (GM) was evaluating the acquisition of Hughes Aircraft Corporation. Recognizing that the appropriate discount rate for the projected cash flows of Hughes was different the its own cost of capital, GM assumed that Hughes had approximately the same risk as Lockheed or Northrop, which had low-risk defence contracts and products that were similarto Hughes. Specifically, assume the following inputs:* [@book, p.389]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Compute the value of Hughes if GM's cost of capital is used as a discount rate instead of the cost of capital computed from the comparison firms.* [@book, p.390]
@@ -1572,7 +1570,7 @@ Text
 *The XYZ firm can invest in new DRAM chip factory for $425 million. The factory, which must be invested today, has cash flows two years from now that depend on the state of the economy. The cash flows when the factory is running at full capacity are described by the following tree diagram:* [@book, p.424]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 *In year 1, the firm has the option of running the plant at less than full capacity. In this case, workers are laid off, production of memory chips is scaled down, and the subsequent cash flows are half of what they would be when the plant was running at full capacity.* [@book, p.424]
@@ -1580,7 +1578,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *An alternative use for the firm's funds is investment in the market portfolio. In the states that correspond to the branches of the tree above, $1 invested in the market portfolio grows as follows:* [@book, p.424]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/placeholder.png")
+knitr::include_graphics("figures/placeholder.png")
 ```
 
 *Assume that the risk-free rate is 5 per cent per year, compounded annually. Compute the project's PV (a) with the option to scale down and (b) without the option to scale sown. Compute the difference between these two values, which is the value of the option.* [@book, p.425]
@@ -1598,7 +1596,7 @@ b. *What is the value of the vacant land, assuming that building construction wi
 *A silver mine has reserves of 25,000 troy ounces of silver. For simplicity, assume the following schedule for extraction, ore purification and sale of the silver ore:* [@book, p.425]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Also assume the following:* [@book, p.425]
@@ -1684,7 +1682,7 @@ Text
 *Compute $\beta_{UA}$, the beta of the unlevered assets of the Hughes acquisition, by taking the average of the betas of the unlevered assets of Lockheed and Northrop.* [@book, p.459]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 ### Exercise 13.3
@@ -1748,7 +1746,7 @@ d. *Compare this WACC with the WACC in Example 13.15. If they are not the same, 
 *The HTT Company is considering a new product. The new product has a five-year life. Sales and net income after taxes for the new product are estimated in the following table.* [@book, p.459]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *The equipment to produce the new product costs €500,000. The €500,000 would be borrowed at a risk-free interest rate of 5 per cent. However, the $\bar{r}_E$ machine adds only €300,000 to the firm's debt capacity in years 1, 2 and 3, and only €200,000 in years 4 and 5.* [@book, p.460]
@@ -1872,7 +1870,7 @@ b. *Which organizational form is better from the perspective of tax minimization
 *ABC GmbH, financed with both equity and €10 million in perpetual debt, has pre-tax cash flow estimates for the current year as follows:* [@book, p.493]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *The corporate tax rate is 38.36 per cent, the effective personal tax rate on equity is 0 per cent, and the interest rate on the perpetual debt os 10 per cent. If the expected after-tax cash flows to the debt holders, as a group, are the same as the expected after-tax cash flows to the equity holders, as a group, what is the personal tax rate on debt?* [@book, p.494]
@@ -1988,7 +1986,7 @@ c. *If the firm does receive the loan from Jack and Jill, which project will the
 *Larsson Fashion Corporation (LFC) can pursue either project Dress or project Cosmetic, with possible pay-oods at year-end as follows:* [@book, p.551]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *Each project costs SKr60 million at the beginning of the year. Assume there are no taxes, there are no direct bankruptcy costs, all investors are risk neutral, and the risk-free interest rate is zero.* [@book, p.551]
@@ -2244,7 +2242,7 @@ Text
 *The following table describes management's view of Abracadabra plc's future cash flows, along with the consensus view of outside analysts.* [@book, p.641]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *If the analysts can be convinced that management's beliefs are correct, the firm's value will increase by €200. Assume that there are no tax or other benefits from debt apart from the information the debt may convey. However, if the promised interest payments exceed the cash flows, the firm will lose €100, €150 or €200 because of financial distress, depending on the state of the economy.* [@book, p.641]
@@ -2256,7 +2254,7 @@ knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~ap
 *Analysts project that Infotech, an information services company, will have the following financial data for equally probable high and low states:* [@book, p.642]
 
 ```{r fig.align="center", echo=FALSE, out.width = "150px",}
-knitr::include_graphics("/Users/christofferelben/Library/Mobile Documents/com~apple~CloudDocs/Studier/cand.merc.fin/1st Semester/Corporate Finance/Notes/figures/matrix.jpg")
+knitr::include_graphics("figures/matrix.jpg")
 ```
 
 *The firm is currently financed entirely with equity. The growth opportunity consists of a possitive-NPV project with a required initial investment of €200 and a value of €300. Management, knowing with 100 per cent certainty whether the firm is in the high or low state, has a choice of taking the project and issuing debt, taking the project and issuing equity, or not taking the project and doing nothing. Examine the pay-offs to current shareholders in the high and low states for each of these three decisions. What if management is unablee to issue debt? (Hint: which beliefs of investors are self-fulfilling?)* [@book, p.642]
@@ -2418,11 +2416,11 @@ c. *Assume that three-month futures are the only hedging instruments available. 
 ### Exercise 22.3
 
 *Assume a two-factor model for next year's profits of BP. The factors are one-year futures prices for oil and one-year futures prices for the £/US\$ exchange rate. The relevant factor equation is* [@book, p.752]
-$$Profit_{BP}=GBP \ 1 \ billion+GBP \ 10 \ million \ \tilde{F}_{OIL}+GBP \ 20 \ million \ \tilde{F}_{GBP/USD}+\tilde{\varepsilon}_{BP}$$
+$$Profit_{BP}=GBP \ 1 \ billion+GBP \ 10 \ million \ \overset{\sim}{F}_{OIL}+GBP \ 20 \ million \ \overset{\sim}{F}_{GBP/USD}+\overset{\sim}{\varepsilon}_{BP}$$
 *Assume that each one-year oil futures contract purchased has the factor equation* [@book, p.752]
-$$\tilde{C}_{OIL}=GBP \ 10,000 \ \tilde{F}_{OIL}$$
+$$\overset{\sim}{C}_{OIL}=GBP \ 10,000 \ \overset{\sim}{F}_{OIL}$$
 *Each one-year futures contract on the £/US\$ exchange rate has the factor equation* [@book, p.752]
-$$\tilde{C}_{GBP/USD}=GBP \ 100,000 \ \tilde{F}_{GBP/USD}$$
+$$\overset{\sim}{C}_{GBP/USD}=GBP \ 100,000 \ \overset{\sim}{F}_{GBP/USD}$$
 *If BP wants to reduce its exposure to the two risk factors by half, how can it accomplish this by buying or selling futures contracts?* [@book, p.752]
 
 ### Exercise 22.4
@@ -2436,7 +2434,7 @@ $$\tilde{C}_{GBP/USD}=GBP \ 100,000 \ \tilde{F}_{GBP/USD}$$
 ### Exercise 22.6
 
 *Assume that Dell Computer, a worldwide manufacturer and mail-order retailer of personal computers, has estimated the following regression associated with its operations in Europe:* [@book, p.752]
-$${Euro \ profits}_t = USD \ 10 \ mil.+ USD \ 8 \ mil. \times \left(USD/EUR \ 1-year \ forward \ exchange \ rate\right)_t+\tilde{\varepsilon}_t$$
+$${Euro \ profits}_t = USD \ 10 \ mil.+ USD \ 8 \ mil. \times \left(USD/EUR \ 1-year \ forward \ exchange \ rate\right)_t+\overset{\sim}{\varepsilon}_t$$
 a. *How should Dell Computer minimize variance associated with these European operations, using only forward contracts on the \$/€ exchange rate? Is your answer affected by whether the European operations are fixed or scaleable in size?* [@book, p.752]
 
 b. *Assuming that European profits are normally distributed, what is Dell's profitat risk at the 5 per cent significance level, assuming that the percentage change in the \$/€ exchange rate is normally distributed and has a volatility of 10 per cent? Ignore risk for this calculation.* [@book, p.753]
